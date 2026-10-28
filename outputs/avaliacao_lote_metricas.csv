@@ -1,0 +1,25 @@
+variant,target,k,precision,recall,f1,tp,detections,ground_truth
+"min(vol,tom)",key,1,0.333,0.026,0.048,4,12,153
+so volume,key,1,0.5,0.039,0.073,6,12,153
+vol+bonus tom,key,1,0.5,0.039,0.073,6,12,153
+"min(vol,tom)",key,3,0.25,0.059,0.095,9,36,153
+so volume,key,3,0.417,0.098,0.159,15,36,153
+vol+bonus tom,key,3,0.444,0.105,0.169,16,36,153
+"min(vol,tom)",key,5,0.217,0.085,0.122,13,60,153
+so volume,key,5,0.267,0.105,0.15,16,60,153
+vol+bonus tom,key,5,0.333,0.131,0.188,20,60,153
+"min(vol,tom)",key,all,0.191,0.163,0.176,25,131,153
+so volume,key,all,0.234,0.17,0.197,26,111,153
+vol+bonus tom,key,all,0.27,0.203,0.231,31,115,153
+"min(vol,tom)",goal,1,0.25,0.083,0.125,3,12,36
+so volume,goal,1,0.417,0.139,0.208,5,12,36
+vol+bonus tom,goal,1,0.5,0.167,0.25,6,12,36
+"min(vol,tom)",goal,3,0.194,0.194,0.194,7,36,36
+so volume,goal,3,0.389,0.389,0.389,14,36,36
+vol+bonus tom,goal,3,0.389,0.389,0.389,14,36,36
+"min(vol,tom)",goal,5,0.167,0.278,0.208,10,60,36
+so volume,goal,5,0.233,0.389,0.292,14,60,36
+vol+bonus tom,goal,5,0.283,0.472,0.354,17,60,36
+"min(vol,tom)",goal,all,0.099,0.361,0.156,13,131,36
+so volume,goal,all,0.189,0.583,0.286,21,111,36
+vol+bonus tom,goal,all,0.191,0.611,0.291,22,115,36

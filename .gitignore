@@ -1,0 +1,14 @@
+# SoccerNet media is NDA-protected: never commit it
+data/
+
+# Hugging Face tokens/cache
+.cache/
+.huggingface/
+
+# Python / ambiente local
+.venv/
+__pycache__/
+*.pyc
+
+# macOS
+.DS_Store
