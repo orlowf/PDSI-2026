@@ -1,0 +1,238 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Ouvindo o gol — Metodologia</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  /* Same look as "Ouvindo o gol — Motivação.pdf": 1456x819, navy / lime / green, Inter. */
+  :root {
+    --navy: #0a0f1e;
+    --navy-card: #151b2e;
+    --lime: #c8f135;
+    --cyan: #22d3ee;
+    --green: #1f7a3a;
+    --paper: #edf0f5;
+    --ink: #0a0f1e;
+    --ink-2: #4a5568;
+    --muted-dark: #9aa3b5;
+    --line-dark: #2a3350;
+  }
+  @page { size: 1456px 819px; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--navy); }
+  body { font-family: "Inter", system-ui, sans-serif; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  .slide {
+    width: 1456px; height: 819px; position: relative; overflow: hidden;
+    padding: 96px 97px 0; page-break-after: always; break-after: page;
+  }
+  .slide:last-child { page-break-after: auto; break-after: auto; }
+  .dark  { background: var(--navy); color: #eef1f7; }
+  .light { background: var(--paper); color: var(--ink); }
+
+  .eyebrow { font-size: 18px; font-weight: 800; letter-spacing: .2em; text-transform: uppercase; }
+  .dark .eyebrow  { color: var(--lime); }
+  .light .eyebrow { color: var(--green); }
+  h1 { font-size: 54px; font-weight: 800; letter-spacing: -.02em; line-height: 1.08; margin-top: 14px; }
+  .pagenum { position: absolute; right: 97px; bottom: 50px; font-size: 18px; }
+  .dark .pagenum  { color: #6b7590; }
+  .light .pagenum { color: #6b7590; }
+
+  /* ---------- Slide 1: block diagram ---------- */
+  .flow { display: flex; align-items: stretch; gap: 0; margin-top: 64px; }
+  .block {
+    flex: 1 1 0; background: #fff; border-radius: 12px; padding: 22px 20px 20px;
+    display: flex; flex-direction: column; gap: 8px; min-height: 236px;
+  }
+  .block .n { font-size: 18px; font-weight: 800; color: var(--green); }
+  .block h3 { font-size: 22px; font-weight: 700; line-height: 1.15; }
+  .block p { font-size: 16px; line-height: 1.38; color: var(--ink-2); }
+  .block .tag {
+    margin-top: auto; align-self: flex-start; font-size: 13px; font-weight: 700;
+    padding: 5px 10px; border-radius: 999px; background: #e3ecd9; color: var(--green);
+  }
+  .block.model { background: var(--navy); color: #fff; outline: 3px solid var(--lime); outline-offset: -3px; }
+  .block.model .n { color: var(--lime); }
+  .block.model p { color: #c4cad8; }
+  .block.model .tag { background: var(--lime); color: var(--navy); }
+  .arrow { flex: 0 0 34px; display: flex; align-items: center; justify-content: center; }
+  .arrow svg { width: 24px; height: 18px; }
+
+  .split { display: flex; align-items: center; gap: 14px; margin-top: 34px; }
+  .split .lbl { font-size: 15px; font-weight: 800; letter-spacing: .14em; color: var(--ink-2); text-transform: uppercase; margin-right: 6px; }
+  .pill {
+    display: flex; align-items: baseline; gap: 10px; padding: 13px 20px; border-radius: 10px;
+    background: #fff; font-size: 18px; font-weight: 700;
+  }
+  .pill small { font-size: 15px; font-weight: 500; color: var(--ink-2); }
+  .pill.test { background: var(--navy); color: #fff; }
+  .pill.test small { color: #aab3c5; }
+  .pill .k { color: var(--green); font-weight: 800; }
+  .pill.test .k { color: var(--cyan); }
+  .split .to { color: var(--ink); font-size: 22px; }
+
+  .note { margin-top: 36px; font-size: 22px; line-height: 1.45; max-width: 1180px; }
+  .note b { color: var(--green); }
+
+  /* ---------- Slide 2: ladder ---------- */
+  .ladder { display: flex; align-items: flex-end; gap: 18px; margin-top: 28px; height: 326px; }
+  .step {
+    flex: 1 1 0; background: var(--navy-card); border-radius: 12px; padding: 18px 20px 16px;
+    display: flex; flex-direction: column; gap: 7px; border-top: 6px solid;
+  }
+  .step:nth-child(1) { height: 236px; border-color: #3a4566; }
+  .step:nth-child(2) { height: 266px; border-color: #5f7a3a; }
+  .step:nth-child(3) { height: 296px; border-color: #98c23a; }
+  .step:nth-child(4) { height: 326px; border-color: var(--lime); }
+  .step .lvl { font-size: 14px; font-weight: 800; letter-spacing: .16em; color: var(--lime); text-transform: uppercase; }
+  .step h3 { font-size: 23px; font-weight: 700; line-height: 1.15; }
+  .step .in { font-size: 15px; color: var(--cyan); font-weight: 600; }
+  .step p { font-size: 16px; line-height: 1.4; color: #c4cad8; }
+  .step .refs { margin-top: auto; font-size: 14px; color: #7f89a3; font-weight: 600; }
+  .step .done {
+    align-self: flex-start; font-size: 13px; font-weight: 700; padding: 5px 10px; border-radius: 999px;
+    background: #1d3a24; color: #8be39a;
+  }
+
+  .axis { display: flex; align-items: center; gap: 14px; margin-top: 14px; font-size: 15px; color: var(--muted-dark); }
+  .axis .bar { flex: 1; height: 2px; background: linear-gradient(90deg, #3a4566, var(--lime)); position: relative; }
+  .axis .bar::after {
+    content: ""; position: absolute; right: -2px; top: -6px;
+    border-left: 12px solid var(--lime); border-top: 7px solid transparent; border-bottom: 7px solid transparent;
+  }
+  .rule { margin-top: 12px; font-size: 19px; font-weight: 600; }
+  .rule em { font-style: normal; color: var(--lime); }
+
+  .biblio {
+    position: absolute; left: 97px; right: 160px; bottom: 22px;
+    columns: 2; column-gap: 34px; font-size: 11px; line-height: 1.38; color: #7f89a3;
+  }
+  .biblio li { list-style: none; break-inside: avoid; }
+  .biblio b { color: #aab3c5; font-weight: 700; }
+</style>
+</head>
+<body>
+
+<!-- ===================== SLIDE 1 ===================== -->
+<section class="slide light">
+  <div class="eyebrow">Metodologia</div>
+  <h1>Como vamos ouvir o gol</h1>
+
+  <div class="flow">
+    <div class="block">
+      <div class="n">1</div>
+      <h3>Áudio</h3>
+      <p>Transmissão da partida, mono, 16 kHz</p>
+    </div>
+    <div class="arrow"><svg viewBox="0 0 24 18"><path d="M0 9h18M12 2l8 7-8 7" fill="none" stroke="#3a4566" stroke-width="3"/></svg></div>
+    <div class="block">
+      <div class="n">2</div>
+      <h3>Preparo do sinal</h3>
+      <p>Filtro na faixa da voz (300–3400 Hz) e corte em janelas de poucos segundos</p>
+    </div>
+    <div class="arrow"><svg viewBox="0 0 24 18"><path d="M0 9h18M12 2l8 7-8 7" fill="none" stroke="#3a4566" stroke-width="3"/></svg></div>
+    <div class="block">
+      <div class="n">3</div>
+      <h3>Representação</h3>
+      <p>Volume e tom → mel-espectrograma → <i>embeddings</i> de rede neural</p>
+    </div>
+    <div class="arrow"><svg viewBox="0 0 24 18"><path d="M0 9h18M12 2l8 7-8 7" fill="none" stroke="#3a4566" stroke-width="3"/></svg></div>
+    <div class="block model">
+      <div class="n">4</div>
+      <h3>Modelo</h3>
+      <p>Dá a cada janela uma nota de “é lance?”</p>
+      <span class="tag">Níveis 0 → 3 · próximo slide</span>
+    </div>
+    <div class="arrow"><svg viewBox="0 0 24 18"><path d="M0 9h18M12 2l8 7-8 7" fill="none" stroke="#3a4566" stroke-width="3"/></svg></div>
+    <div class="block">
+      <div class="n">5</div>
+      <h3>Lances no tempo</h3>
+      <p>Suaviza, aplica limiar e junta picos vizinhos → minuto do lance</p>
+    </div>
+    <div class="arrow"><svg viewBox="0 0 24 18"><path d="M0 9h18M12 2l8 7-8 7" fill="none" stroke="#3a4566" stroke-width="3"/></svg></div>
+    <div class="block">
+      <div class="n">6</div>
+      <h3>Validação</h3>
+      <p>Acerto se cair a ±T do gabarito: precisão, revocação, F1</p>
+    </div>
+  </div>
+
+  <div class="split">
+    <span class="lbl">Dados</span>
+    <div class="pill"><span class="k">Treino</span> SoccerNet <small>jogos anotados</small></div>
+    <span class="to">→</span>
+    <div class="pill"><span class="k">Validação</span> SoccerNet <small>outros jogos</small></div>
+    <span class="to">→</span>
+    <div class="pill test"><span class="k">Teste</span> CazéTV <small>trechos da Copa 2026</small></div>
+  </div>
+
+  <p class="note">Só o <b>bloco 4</b> muda de um nível para o outro. Áudio, janelas e avaliação continuam
+    iguais, então a comparação entre os modelos é justa.</p>
+
+  <div class="pagenum">1 / 2</div>
+</section>
+
+<!-- ===================== SLIDE 2 ===================== -->
+<section class="slide dark">
+  <div class="eyebrow">Metodologia · Modelos</div>
+  <h1>Do mais simples ao mais complexo</h1>
+
+  <div class="ladder">
+    <div class="step">
+      <div class="lvl">Nível 0 · Baseline</div>
+      <h3>Regras sobre a voz</h3>
+      <div class="in">Volume (RMS) + tom (F0)</div>
+      <p>Limiar no grito: alto, agudo e sustentado por ≥ 2 s</p>
+      <span class="done">✓ feito · revocação de gols 0,61–0,74</span>
+      <div class="refs">[1] [3]</div>
+    </div>
+    <div class="step">
+      <div class="lvl">Nível 1 · ML clássico</div>
+      <h3>Atributos + classificador</h3>
+      <div class="in">MFCC, RMS, F0, centróide espectral</div>
+      <p>Regressão logística ou Random Forest aprendem os pesos que hoje escolhemos à mão</p>
+      <div class="refs">[2]</div>
+    </div>
+    <div class="step">
+      <div class="lvl">Nível 2 · Deep learning</div>
+      <h3>CNN pré-treinada</h3>
+      <div class="in">Mel-espectrograma</div>
+      <p><i>Embeddings</i> VGGish ou PANNs, treinadas em milhões de áudios do AudioSet, mais um classificador leve por janela</p>
+      <div class="refs">[5] [6] [7]</div>
+    </div>
+    <div class="step">
+      <div class="lvl">Nível 3 · Estado da arte</div>
+      <h3>Transformer auto-supervisionado</h3>
+      <div class="in">Mel-espectrograma ou onda bruta</div>
+      <p>AST ou wav2vec 2.0 com <i>fine-tuning</i> para a excitação da fala, olhando o que vem antes e depois do lance</p>
+      <div class="refs">[8] [9] [10]</div>
+    </div>
+  </div>
+
+  <div class="axis">
+    <span>regras fixas · poucos dados · CPU</span>
+    <div class="bar"></div>
+    <span>aprendido · mais dados · GPU</span>
+  </div>
+  <p class="rule">Cada nível só avança se <em>superar o anterior em F1</em> na mesma validação do SoccerNet [4].</p>
+
+  <ol class="biblio">
+    <li><b>[1]</b> Rui, Gupta, Acero. Automatically extracting highlights for TV baseball programs. ACM Multimedia, 2000.</li>
+    <li><b>[2]</b> Xiong et al. Audio events detection based highlights extraction from baseball, golf and soccer games in a unified framework. IEEE ICME, 2003.</li>
+    <li><b>[3]</b> Mauch, Dixon. pYIN: a fundamental frequency estimator using probabilistic threshold distributions. IEEE ICASSP, 2014.</li>
+    <li><b>[4]</b> Giancola et al. SoccerNet: a scalable dataset for action spotting in soccer videos. CVPR Workshops, 2018.</li>
+    <li><b>[5]</b> Hershey et al. CNN architectures for large-scale audio classification. IEEE ICASSP, 2017.</li>
+    <li><b>[6]</b> Kong et al. PANNs: large-scale pretrained audio neural networks for audio pattern recognition. IEEE/ACM TASLP, 2020.</li>
+    <li><b>[7]</b> Vanderplaetse, Dupont. Improved soccer action spotting using both audio and video streams. CVPR Workshops, 2020.</li>
+    <li><b>[8]</b> Gong, Chung, Glass. AST: Audio Spectrogram Transformer. Interspeech, 2021.</li>
+    <li><b>[9]</b> Baevski et al. wav2vec 2.0: a framework for self-supervised learning of speech representations. NeurIPS, 2020.</li>
+    <li><b>[10]</b> Giancola, Ghanem. Temporally-aware feature pooling for action spotting in soccer broadcasts. CVPR Workshops, 2021.</li>
+  </ol>
+
+  <div class="pagenum">2 / 2</div>
+</section>
+
+</body>
+</html>
