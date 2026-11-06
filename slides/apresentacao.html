@@ -1,0 +1,500 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Ouvindo o gol — Prévia do Seminário</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+<style>
+  /* Deck da prévia (06/11): mesmo visual do "Ouvindo o gol — Motivação.pdf". 1456x819, navy / lime / verde, Inter. */
+  :root {
+    --navy: #0a0f1e;
+    --navy-card: #151b2e;
+    --lime: #c8f135;
+    --cyan: #22d3ee;
+    --green: #1f7a3a;
+    --paper: #edf0f5;
+    --ink: #0a0f1e;
+    --ink-2: #4a5568;
+    --slate: #6b7590;
+    --muted-dark: #9aa3b5;
+  }
+  @page { size: 1456px 819px; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--navy); }
+  body { font-family: "Inter", system-ui, sans-serif; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  .slide {
+    width: 1456px; height: 819px; position: relative; overflow: hidden;
+    padding: 96px 97px 0; page-break-after: always; break-after: page;
+  }
+  .slide:last-child { page-break-after: auto; break-after: auto; }
+  .dark  { background: var(--navy); color: #eef1f7; }
+  .light { background: var(--paper); color: var(--ink); }
+  .lime  { background: var(--lime); color: var(--ink); }
+
+  .eyebrow { font-size: 18px; font-weight: 800; letter-spacing: .2em; text-transform: uppercase; }
+  .dark .eyebrow  { color: var(--lime); }
+  .light .eyebrow { color: var(--green); }
+  .lime .eyebrow  { color: var(--ink); }
+  h1 { font-size: 54px; font-weight: 800; letter-spacing: -.02em; line-height: 1.08; margin-top: 14px; }
+  .pagenum { position: absolute; right: 97px; bottom: 50px; font-size: 18px; color: var(--slate); }
+  .lime .pagenum { color: var(--ink); }
+  .cite { color: var(--slate); font-weight: 600; }
+  .dark .cite { color: #7f89a3; }
+
+  /* ---------- sound wave (capa / encerramento) ---------- */
+  .wave { display: flex; align-items: center; justify-content: center; gap: 15px; }
+  .wave i { display: block; width: 11px; border-radius: 6px; background: #2a3350; }
+  .wave i.on { background: var(--lime); }
+
+  /* ---------- 1. capa ---------- */
+  .cover { text-align: center; padding-top: 128px; }
+  .cover h1 { font-size: 104px; margin-top: 22px; letter-spacing: -.03em; }
+  .cover .sub { font-size: 28px; color: #aab3c5; margin-top: 18px; }
+  .cover .wave { margin-top: 52px; height: 150px; }
+  .cover .team { font-size: 24px; font-weight: 600; margin-top: 46px; }
+  .cover .course { font-size: 17px; color: var(--slate); margin-top: 10px; }
+
+  /* ---------- 2. problema ---------- */
+  .bignums { display: flex; align-items: center; justify-content: space-between; margin-top: 92px; }
+  .bignum .v { font-size: 156px; font-weight: 800; letter-spacing: -.04em; line-height: 1; }
+  .bignum .v.gray { color: var(--slate); }
+  .bignum .v.green { color: var(--green); }
+  .bignum .c { font-size: 24px; color: var(--ink-2); margin-top: 14px; }
+  .bignums .arr svg { width: 130px; height: 40px; }
+  .p2-text { font-size: 24px; line-height: 1.45; margin-top: 86px; color: #1f2937; }
+  .source { position: absolute; left: 97px; bottom: 52px; font-size: 16px; color: var(--slate); }
+
+  /* ---------- 3. ideia ---------- */
+  .idea { display: flex; gap: 64px; align-items: center; margin-top: 96px; }
+  .idea .left { flex: 1; }
+  .idea h1 { font-size: 72px; line-height: 1.04; letter-spacing: -.03em; }
+  .idea .lead { font-size: 25px; line-height: 1.45; margin-top: 26px; max-width: 760px; }
+  .chips { display: flex; gap: 12px; margin-top: 30px; }
+  .chip { background: var(--ink); color: var(--lime); font-weight: 700; font-size: 20px; padding: 12px 22px; border-radius: 999px; }
+  .light-card {
+    flex: 0 0 410px; background: var(--ink); color: #eef1f7; border-radius: 16px; padding: 32px 34px;
+  }
+  .light-card .k { font-size: 15px; font-weight: 800; letter-spacing: .18em; color: var(--lime); }
+  .light-card .big { font-size: 92px; font-weight: 800; color: var(--lime); letter-spacing: -.03em; line-height: 1; margin-top: 16px; }
+  .light-card .t { font-size: 19px; line-height: 1.45; color: #c4cad8; margin-top: 12px; }
+  .bars { margin-top: 24px; display: grid; grid-template-columns: 70px 1fr; gap: 10px 14px; align-items: center; font-size: 15px; }
+  .bars .lbl { font-weight: 700; }
+  .bars .bar { height: 14px; border-radius: 4px; background: #6b7590; }
+  .bars .bar.a { width: 3px; background: var(--lime); }
+  .bars .n { grid-column: 2; font-size: 14px; color: var(--muted-dark); margin-top: -6px; }
+
+  /* ---------- 4. contexto ---------- */
+  .tl { position: relative; margin-top: 58px; }
+  .tl .rail { position: absolute; left: 0; right: 0; top: 9px; height: 2px; background: linear-gradient(90deg, #2a3350, var(--lime)); }
+  .tl .cols { display: flex; gap: 22px; position: relative; }
+  .tl .col { flex: 1; }
+  .tl .dot { width: 20px; height: 20px; border-radius: 50%; background: var(--navy); border: 4px solid var(--lime); }
+  .tl .card { background: var(--navy-card); border-radius: 12px; padding: 22px 22px 20px; margin-top: 22px; height: 268px; display: flex; flex-direction: column; gap: 10px; }
+  .tl .yr { font-size: 15px; font-weight: 800; letter-spacing: .14em; color: var(--lime); }
+  .tl h3 { font-size: 23px; font-weight: 700; line-height: 1.18; }
+  .tl p { font-size: 17px; line-height: 1.45; color: #c4cad8; }
+  .tl .card .cite { margin-top: auto; font-size: 15px; }
+  .gap {
+    margin-top: 26px; background: var(--lime); color: var(--ink); border-radius: 12px; padding: 20px 26px;
+    display: flex; align-items: baseline; gap: 22px; font-size: 22px; line-height: 1.4;
+  }
+  .gap b.k { font-size: 15px; font-weight: 800; letter-spacing: .18em; white-space: nowrap; }
+
+  /* ---------- 5. pipeline ---------- */
+  .flow { display: flex; align-items: stretch; margin-top: 64px; }
+  .block { flex: 1 1 0; background: #fff; border-radius: 12px; padding: 22px 20px 20px; display: flex; flex-direction: column; gap: 8px; min-height: 236px; }
+  .block .n { font-size: 18px; font-weight: 800; color: var(--green); }
+  .block h3 { font-size: 22px; font-weight: 700; line-height: 1.15; }
+  .block p { font-size: 16px; line-height: 1.38; color: var(--ink-2); }
+  .block .tag { margin-top: auto; align-self: flex-start; font-size: 13px; font-weight: 700; padding: 5px 10px; border-radius: 999px; background: #e3ecd9; color: var(--green); }
+  .block.model { background: var(--navy); color: #fff; outline: 3px solid var(--lime); outline-offset: -3px; }
+  .block.model .n { color: var(--lime); }
+  .block.model p { color: #c4cad8; }
+  .block.model .tag { background: var(--lime); color: var(--navy); }
+  .arrow { flex: 0 0 34px; display: flex; align-items: center; justify-content: center; }
+  .arrow svg { width: 24px; height: 18px; }
+  .split { display: flex; align-items: center; gap: 14px; margin-top: 34px; }
+  .split .lbl { font-size: 15px; font-weight: 800; letter-spacing: .14em; color: var(--ink-2); text-transform: uppercase; margin-right: 6px; }
+  .pill { display: flex; align-items: baseline; gap: 10px; padding: 13px 20px; border-radius: 10px; background: #fff; font-size: 18px; font-weight: 700; }
+  .pill small { font-size: 15px; font-weight: 500; color: var(--ink-2); }
+  .pill.test { background: var(--navy); color: #fff; }
+  .pill.test small { color: #aab3c5; }
+  .pill .k { color: var(--green); font-weight: 800; }
+  .pill.test .k { color: var(--cyan); }
+  .split .to { font-size: 22px; }
+  .note { margin-top: 36px; font-size: 22px; line-height: 1.45; max-width: 1180px; }
+  .note b { color: var(--green); }
+
+  /* ---------- 6. escada ---------- */
+  .ladder { display: flex; align-items: flex-end; gap: 18px; margin-top: 40px; height: 372px; }
+  .step { flex: 1 1 0; background: var(--navy-card); border-radius: 12px; padding: 20px 20px 18px; display: flex; flex-direction: column; gap: 8px; border-top: 6px solid; }
+  .step:nth-child(1) { height: 252px; border-color: #3a4566; }
+  .step:nth-child(2) { height: 292px; border-color: #5f7a3a; }
+  .step:nth-child(3) { height: 332px; border-color: #98c23a; }
+  .step:nth-child(4) { height: 372px; border-color: var(--lime); }
+  .step .lvl { font-size: 14px; font-weight: 800; letter-spacing: .16em; color: var(--lime); text-transform: uppercase; }
+  .step h3 { font-size: 23px; font-weight: 700; line-height: 1.15; }
+  .step .in { font-size: 15px; color: var(--cyan); font-weight: 600; }
+  .step p { font-size: 16px; line-height: 1.4; color: #c4cad8; }
+  .step .cite { margin-top: auto; font-size: 14px; }
+  .step .done { align-self: flex-start; font-size: 13px; font-weight: 700; padding: 5px 10px; border-radius: 999px; background: #1d3a24; color: #8be39a; }
+  .axis { display: flex; align-items: center; gap: 14px; margin-top: 20px; font-size: 15px; color: var(--muted-dark); }
+  .axis .bar { flex: 1; height: 2px; background: linear-gradient(90deg, #3a4566, var(--lime)); position: relative; }
+  .axis .bar::after { content: ""; position: absolute; right: -2px; top: -6px; border-left: 12px solid var(--lime); border-top: 7px solid transparent; border-bottom: 7px solid transparent; }
+  .rule { margin-top: 22px; font-size: 21px; font-weight: 600; }
+  .rule em { font-style: normal; color: var(--lime); }
+
+  /* ---------- 7. validação ---------- */
+  .tol { margin-top: 30px; }
+  .tol svg { width: 1262px; height: 190px; display: block; }
+  .metrics { display: flex; gap: 22px; margin-top: 18px; }
+  .metric { flex: 1; background: #fff; border-radius: 12px; padding: 22px 26px; border-top: 6px solid; }
+  .metric:nth-child(1) { border-color: var(--green); }
+  .metric:nth-child(2) { border-color: #0ea5c6; }
+  .metric:nth-child(3) { border-color: var(--ink); }
+  .metric h3 { font-size: 26px; font-weight: 700; }
+  .metric p { font-size: 18px; line-height: 1.4; color: var(--ink-2); margin-top: 8px; }
+  .metric .f { font-size: 16px; color: var(--slate); margin-top: 10px; font-weight: 600; }
+  .val-note { margin-top: 26px; font-size: 20px; line-height: 1.45; }
+  .val-note b { color: var(--green); }
+
+  /* ---------- 8. cronograma ---------- */
+  .weeks { position: relative; display: flex; gap: 14px; margin-top: 76px; }
+  .weeks .rail { position: absolute; left: 10px; right: 10px; top: 9px; height: 2px; background: #2a3350; }
+  .wk { flex: 1; position: relative; }
+  .wk .dot { width: 20px; height: 20px; border-radius: 50%; background: var(--navy); border: 4px solid #3a4566; }
+  .wk.mile .dot { border-color: var(--lime); background: var(--lime); }
+  .wk .card { margin-top: 20px; background: var(--navy-card); border-radius: 12px; padding: 20px 18px; height: 340px; display: flex; flex-direction: column; gap: 10px; }
+  .wk.mile .card { outline: 3px solid var(--lime); outline-offset: -3px; }
+  .wk.final .card { background: var(--lime); color: var(--ink); outline: none; }
+  .wk .s { font-size: 14px; font-weight: 800; letter-spacing: .16em; color: var(--muted-dark); }
+  .wk.final .s { color: var(--ink); }
+  .wk .d { font-size: 40px; font-weight: 800; letter-spacing: -.02em; line-height: 1; }
+  .wk h3 { font-size: 20px; font-weight: 700; line-height: 1.2; color: var(--lime); }
+  .wk.final h3 { color: var(--ink); }
+  .wk ul { list-style: none; display: flex; flex-direction: column; gap: 8px; }
+  .wk li { font-size: 16px; line-height: 1.38; color: #c4cad8; padding-left: 14px; position: relative; }
+  .wk li::before { content: ""; position: absolute; left: 0; top: 9px; width: 5px; height: 5px; border-radius: 50%; background: #6b7590; }
+  .wk.final li { color: #1f2937; }
+  .wk.final li::before { background: var(--ink); }
+  .wk .today { position: absolute; top: -34px; left: -4px; font-size: 13px; font-weight: 800; letter-spacing: .14em; color: var(--cyan); }
+
+  /* ---------- 9. referências ---------- */
+  .refs { margin-top: 40px; list-style: none; display: flex; flex-direction: column; gap: 13px; }
+  .refs li { font-size: 17px; line-height: 1.4; color: #1f2937; display: flex; gap: 14px; }
+  .refs li b { flex: 0 0 40px; color: var(--green); }
+  .refs i { font-style: italic; }
+
+  /* ---------- 10. encerramento ---------- */
+  .end { text-align: center; padding-top: 190px; }
+  .end .wave { height: 120px; gap: 12px; }
+  .end .wave i { width: 10px; }
+  .end h1 { font-size: 104px; margin-top: 44px; letter-spacing: -.03em; }
+  .end .sub { font-size: 28px; color: #aab3c5; margin-top: 14px; }
+</style>
+</head>
+<body>
+
+<!-- ===================== 1. CAPA ===================== -->
+<section class="slide dark cover">
+  <div class="eyebrow">Equipe Ouvindo o Gol · Prévia do Seminário</div>
+  <h1>Ouvindo o gol</h1>
+  <p class="sub">A voz do narrador como atalho para os melhores momentos de uma partida</p>
+  <div class="wave">
+    <i style="height:18px"></i><i style="height:28px"></i><i style="height:20px"></i><i style="height:30px"></i><i style="height:16px"></i><i style="height:24px"></i><i style="height:32px"></i><i style="height:22px"></i><i style="height:26px"></i><i style="height:18px"></i>
+    <i class="on" style="height:40px"></i><i class="on" style="height:62px"></i><i class="on" style="height:86px"></i><i class="on" style="height:112px"></i><i class="on" style="height:130px"></i><i class="on" style="height:144px"></i><i class="on" style="height:130px"></i><i class="on" style="height:112px"></i><i class="on" style="height:86px"></i><i class="on" style="height:62px"></i><i class="on" style="height:40px"></i>
+    <i style="height:26px"></i><i style="height:20px"></i><i style="height:30px"></i><i style="height:18px"></i><i style="height:28px"></i><i style="height:22px"></i><i style="height:32px"></i><i style="height:18px"></i><i style="height:26px"></i><i style="height:20px"></i>
+  </div>
+  <p class="team">Felipe Orlow, Pedro Augusto, Murilo Uchôa e Gustavo Barros</p>
+  <p class="course">INF0413 · Signal and Image Processing · 06/11/2026</p>
+  <div class="pagenum">1 / 10</div>
+</section>
+
+<!-- ===================== 2. MOTIVAÇÃO: PROBLEMA ===================== -->
+<section class="slide light">
+  <div class="eyebrow">Motivação · O problema</div>
+  <h1>Muito jogo, poucos lances que importam</h1>
+  <div class="bignums">
+    <div class="bignum"><div class="v gray">90 min</div><div class="c">5.400 segundos de transmissão</div></div>
+    <div class="arr"><svg viewBox="0 0 130 40"><path d="M0 20h110M92 6l22 14-22 14" fill="none" stroke="#0a0f1e" stroke-width="6"/></svg></div>
+    <div class="bignum"><div class="v green">≈ 26</div><div class="c">lances-chave por jogo</div></div>
+  </div>
+  <p class="p2-text">Nos 12 jogos do SoccerNet que analisamos: <b>310 lances-chave</b> (gols, pênaltis, finalizações e expulsões),
+    <b>55 deles gols</b>. Hoje, achar esses lances é <b>trabalho manual</b>: alguém assiste ao jogo inteiro, anota e recorta.</p>
+  <div class="source">Fonte: anotações do SoccerNet, 12 jogos (24 tempos) usados no trabalho</div>
+  <div class="pagenum">2 / 10</div>
+</section>
+
+<!-- ===================== 3. MOTIVAÇÃO: IDEIA ===================== -->
+<section class="slide lime">
+  <div class="eyebrow">Motivação · A ideia</div>
+  <div class="idea">
+    <div class="left">
+      <h1>O narrador já assistiu ao jogo inteiro por nós.</h1>
+      <p class="lead">Ele reage a cada lance em tempo real. Quando algo importa, a voz muda: fica mais alta,
+        mais aguda e se sustenta. Esse é o sinal que vamos ouvir.</p>
+      <div class="chips"><span class="chip">Volume</span><span class="chip">Tom</span><span class="chip">Duração</span></div>
+    </div>
+    <div class="light-card">
+      <div class="k">POR QUE ÁUDIO</div>
+      <div class="big">≈ 400×</div>
+      <p class="t">menos números por segundo que o vídeo. E a narração está em toda transmissão, até no rádio.</p>
+      <div class="bars">
+        <span class="lbl">Vídeo</span><span class="bar"></span>
+        <span class="n">224p · 25 quadros/s · 6,7 mi/s</span>
+        <span class="lbl">Áudio</span><span class="bar a"></span>
+        <span class="n">mono · 16 kHz · 16 mil/s</span>
+      </div>
+    </div>
+  </div>
+  <div class="pagenum">3 / 10</div>
+</section>
+
+<!-- ===================== 4. CONTEXTO ===================== -->
+<section class="slide dark">
+  <div class="eyebrow">Contexto</div>
+  <h1>O que a literatura já fez</h1>
+  <div class="tl">
+    <div class="rail"></div>
+    <div class="cols">
+      <div class="col">
+        <div class="dot"></div>
+        <div class="card">
+          <div class="yr">2000–2003</div>
+          <h3>Highlights pelo áudio</h3>
+          <p>A empolgação do narrador já indicava os melhores lances no beisebol, golfe e futebol.</p>
+          <div class="cite">[1] [2]</div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="dot"></div>
+        <div class="card">
+          <div class="yr">2017–2021</div>
+          <h3>Redes que “ouvem”</h3>
+          <p>Modelos pré-treinados em milhões de áudios: VGGish, PANNs, AST e wav2vec 2.0.</p>
+          <div class="cite">[5] [6] [8] [9]</div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="dot"></div>
+        <div class="card">
+          <div class="yr">2018</div>
+          <h3>SoccerNet</h3>
+          <p>500 jogos com lances anotados viram a referência para <i>action spotting</i> no futebol.</p>
+          <div class="cite">[4]</div>
+        </div>
+      </div>
+      <div class="col">
+        <div class="dot"></div>
+        <div class="card">
+          <div class="yr">2020–2021</div>
+          <h3>Áudio no futebol</h3>
+          <p>Somar o áudio ao vídeo melhora o <i>spotting</i> no SoccerNet; o contexto temporal ajuda.</p>
+          <div class="cite">[7] [10]</div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="gap"><b class="k">ONDE ENTRAMOS</b><span><b>Só a voz do narrador</b>, sem vídeo: comparar regras simples e redes neurais no mesmo pipeline.</span></div>
+  <div class="pagenum">4 / 10</div>
+</section>
+
+<!-- ===================== 5. METODOLOGIA: PIPELINE ===================== -->
+<section class="slide light">
+  <div class="eyebrow">Metodologia · Pipeline</div>
+  <h1>Como vamos ouvir o gol</h1>
+  <div class="flow">
+    <div class="block"><div class="n">1</div><h3>Áudio</h3><p>Transmissão da partida, mono, 16 kHz</p></div>
+    <div class="arrow"><svg viewBox="0 0 24 18"><path d="M0 9h18M12 2l8 7-8 7" fill="none" stroke="#3a4566" stroke-width="3"/></svg></div>
+    <div class="block"><div class="n">2</div><h3>Preparo do sinal</h3><p>Filtro na faixa da voz (300–3400 Hz) e corte em janelas de poucos segundos</p></div>
+    <div class="arrow"><svg viewBox="0 0 24 18"><path d="M0 9h18M12 2l8 7-8 7" fill="none" stroke="#3a4566" stroke-width="3"/></svg></div>
+    <div class="block"><div class="n">3</div><h3>Representação</h3><p>Volume e tom → mel-espectrograma → <i>embeddings</i> de rede neural</p></div>
+    <div class="arrow"><svg viewBox="0 0 24 18"><path d="M0 9h18M12 2l8 7-8 7" fill="none" stroke="#3a4566" stroke-width="3"/></svg></div>
+    <div class="block model"><div class="n">4</div><h3>Modelo</h3><p>Dá a cada janela uma nota de “é lance?”</p><span class="tag">Níveis 0 → 3 · próximo slide</span></div>
+    <div class="arrow"><svg viewBox="0 0 24 18"><path d="M0 9h18M12 2l8 7-8 7" fill="none" stroke="#3a4566" stroke-width="3"/></svg></div>
+    <div class="block"><div class="n">5</div><h3>Lances no tempo</h3><p>Suaviza, aplica limiar e junta picos vizinhos → minuto do lance</p></div>
+    <div class="arrow"><svg viewBox="0 0 24 18"><path d="M0 9h18M12 2l8 7-8 7" fill="none" stroke="#3a4566" stroke-width="3"/></svg></div>
+    <div class="block"><div class="n">6</div><h3>Validação</h3><p>Acerto se cair a ±T do gabarito: precisão, revocação, F1</p></div>
+  </div>
+  <div class="split">
+    <span class="lbl">Dados</span>
+    <div class="pill"><span class="k">Treino</span> SoccerNet <small>jogos anotados</small></div>
+    <span class="to">→</span>
+    <div class="pill"><span class="k">Validação</span> SoccerNet <small>outros jogos</small></div>
+    <span class="to">→</span>
+    <div class="pill test"><span class="k">Teste</span> CazéTV <small>trechos da Copa 2026</small></div>
+  </div>
+  <p class="note">Só o <b>bloco 4</b> muda de um nível para o outro. Áudio, janelas e avaliação continuam
+    iguais, então a comparação entre os modelos é justa.</p>
+  <div class="pagenum">5 / 10</div>
+</section>
+
+<!-- ===================== 6. METODOLOGIA: MODELOS ===================== -->
+<section class="slide dark">
+  <div class="eyebrow">Metodologia · Modelos</div>
+  <h1>Do mais simples ao mais complexo</h1>
+  <div class="ladder">
+    <div class="step">
+      <div class="lvl">Nível 0 · Baseline</div>
+      <h3>Regras sobre a voz</h3>
+      <div class="in">Volume (RMS) + tom (F0)</div>
+      <p>Limiar no grito: alto, agudo e sustentado por ≥ 2 s</p>
+      <span class="done">✓ feito · revocação de gols 0,61–0,74</span>
+      <div class="cite">[1] [3]</div>
+    </div>
+    <div class="step">
+      <div class="lvl">Nível 1 · ML clássico</div>
+      <h3>Atributos + classificador</h3>
+      <div class="in">MFCC, RMS, F0, centróide espectral</div>
+      <p>Regressão logística ou Random Forest aprendem os pesos que hoje escolhemos à mão</p>
+      <div class="cite">[2]</div>
+    </div>
+    <div class="step">
+      <div class="lvl">Nível 2 · Deep learning</div>
+      <h3>CNN pré-treinada</h3>
+      <div class="in">Mel-espectrograma</div>
+      <p><i>Embeddings</i> VGGish ou PANNs, treinadas em milhões de áudios do AudioSet, mais um classificador leve por janela</p>
+      <div class="cite">[5] [6] [7]</div>
+    </div>
+    <div class="step">
+      <div class="lvl">Nível 3 · Estado da arte</div>
+      <h3>Transformer auto-supervisionado</h3>
+      <div class="in">Mel-espectrograma ou onda bruta</div>
+      <p>AST ou wav2vec 2.0 com <i>fine-tuning</i> para a excitação da fala, olhando o que vem antes e depois do lance</p>
+      <div class="cite">[8] [9] [10]</div>
+    </div>
+  </div>
+  <div class="axis">
+    <span>regras fixas · poucos dados · CPU</span>
+    <div class="bar"></div>
+    <span>aprendido · mais dados · GPU</span>
+  </div>
+  <p class="rule">Cada nível só avança se <em>superar o anterior em F1</em> na mesma validação do SoccerNet [4].</p>
+  <div class="pagenum">6 / 10</div>
+</section>
+
+<!-- ===================== 7. METODOLOGIA: VALIDAÇÃO ===================== -->
+<section class="slide light">
+  <div class="eyebrow">Metodologia · Validação</div>
+  <h1>Como medir o sucesso</h1>
+  <div class="tol">
+    <svg viewBox="0 0 1262 190" font-family="Inter, sans-serif">
+      <defs><marker id="ah" markerWidth="12" markerHeight="12" refX="10" refY="6" orient="auto"><path d="M0 0L12 6L0 12z" fill="#3a4566"/></marker></defs>
+      <rect x="430" y="76" width="300" height="64" rx="6" fill="#d6f1f7" stroke="#0ea5c6" stroke-width="2" stroke-dasharray="8 6"/>
+      <line x1="0" y1="108" x2="1230" y2="108" stroke="#3a4566" stroke-width="3" marker-end="url(#ah)"/>
+      <line x1="560" y1="44" x2="560" y2="108" stroke="#1f7a3a" stroke-width="4"/>
+      <circle cx="560" cy="44" r="9" fill="#1f7a3a"/>
+      <text x="560" y="24" text-anchor="middle" font-size="20" font-weight="700" fill="#1f7a3a">Gol no gabarito</text>
+      <circle cx="640" cy="108" r="13" fill="#0a0f1e"/>
+      <text x="662" y="66" font-size="19" font-weight="600" fill="#0a0f1e">✓ acerto</text>
+      <circle cx="960" cy="108" r="13" fill="#edf0f5" stroke="#0a0f1e" stroke-width="3"/>
+      <text x="960" y="66" text-anchor="middle" font-size="19" font-weight="600" fill="#4a5568">✗ alarme falso</text>
+      <text x="430" y="168" text-anchor="middle" font-size="20" font-weight="700" fill="#0e8fab">−T</text>
+      <text x="730" y="168" text-anchor="middle" font-size="20" font-weight="700" fill="#0e8fab">+T</text>
+      <text x="1230" y="146" text-anchor="end" font-size="17" fill="#6b7590">tempo</text>
+    </svg>
+  </div>
+  <div class="metrics">
+    <div class="metric"><h3>Precisão</h3><p>Dos lances que achamos, quantos eram reais</p></div>
+    <div class="metric"><h3>Revocação</h3><p>Dos lances reais, quantos achamos</p></div>
+    <div class="metric"><h3>F1</h3><p>Equilíbrio entre as duas: é a nota que decide se um nível avança</p></div>
+  </div>
+  <p class="val-note">Validação em <b>jogos do SoccerNet separados do treino</b> e teste final em <b>trechos da CazéTV</b> que
+    nenhum modelo viu: outro narrador, outra língua, outra transmissão.</p>
+  <div class="pagenum">7 / 10</div>
+</section>
+
+<!-- ===================== 8. CRONOGRAMA ===================== -->
+<section class="slide dark">
+  <div class="eyebrow">Cronograma</div>
+  <h1>Seis semanas até a entrega final</h1>
+  <div class="weeks">
+    <div class="rail"></div>
+    <div class="wk">
+      <span class="today">HOJE</span>
+      <div class="dot" style="border-color:var(--cyan)"></div>
+      <div class="card">
+        <div class="s">SEMANA 1</div><div class="d">06/11</div>
+        <h3>Prévia</h3>
+        <ul><li>Revisão da literatura</li><li>Ampliar a base SoccerNet</li><li>Rotular janelas de áudio</li></ul>
+      </div>
+    </div>
+    <div class="wk mile">
+      <div class="dot"></div>
+      <div class="card">
+        <div class="s">SEMANA 2</div><div class="d">13/11</div>
+        <h3>Checkpoint 1</h3>
+        <ul><li>Proposta</li><li>Nível 0 medido em toda a validação</li></ul>
+      </div>
+    </div>
+    <div class="wk">
+      <div class="dot"></div>
+      <div class="card">
+        <div class="s">SEMANA 3</div><div class="d">20/11</div>
+        <h3>Nível 1</h3>
+        <ul><li>MFCC e atributos espectrais</li><li>Random Forest / regressão logística</li></ul>
+      </div>
+    </div>
+    <div class="wk">
+      <div class="dot"></div>
+      <div class="card">
+        <div class="s">SEMANA 4</div><div class="d">27/11</div>
+        <h3>Nível 2</h3>
+        <ul><li><i>Embeddings</i> PANNs / VGGish</li><li>Classificador por janela</li></ul>
+      </div>
+    </div>
+    <div class="wk">
+      <div class="dot"></div>
+      <div class="card">
+        <div class="s">SEMANA 5</div><div class="d">04/12</div>
+        <h3>Nível 3</h3>
+        <ul><li>AST / wav2vec 2.0 com <i>fine-tuning</i> (GPU Colab)</li><li>Teste na CazéTV</li></ul>
+      </div>
+    </div>
+    <div class="wk mile final">
+      <div class="dot"></div>
+      <div class="card">
+        <div class="s">SEMANA 6</div><div class="d">11/12</div>
+        <h3>Apresentação final</h3>
+        <ul><li>Comparação dos 4 níveis</li><li>Clipes automáticos dos melhores momentos</li></ul>
+      </div>
+    </div>
+  </div>
+  <div class="pagenum">8 / 10</div>
+</section>
+
+<!-- ===================== 9. REFERÊNCIAS ===================== -->
+<section class="slide light">
+  <div class="eyebrow">Contexto · Referências</div>
+  <h1>Referências</h1>
+  <ol class="refs">
+    <li><b>[1]</b><span>Y. Rui, A. Gupta, A. Acero. <i>Automatically extracting highlights for TV baseball programs.</i> ACM Multimedia, 2000.</span></li>
+    <li><b>[2]</b><span>Z. Xiong et al. <i>Audio events detection based highlights extraction from baseball, golf and soccer games in a unified framework.</i> IEEE ICME, 2003.</span></li>
+    <li><b>[3]</b><span>M. Mauch, S. Dixon. <i>pYIN: a fundamental frequency estimator using probabilistic threshold distributions.</i> IEEE ICASSP, 2014.</span></li>
+    <li><b>[4]</b><span>S. Giancola et al. <i>SoccerNet: a scalable dataset for action spotting in soccer videos.</i> CVPR Workshops, 2018.</span></li>
+    <li><b>[5]</b><span>S. Hershey et al. <i>CNN architectures for large-scale audio classification.</i> IEEE ICASSP, 2017.</span></li>
+    <li><b>[6]</b><span>Q. Kong et al. <i>PANNs: large-scale pretrained audio neural networks for audio pattern recognition.</i> IEEE/ACM TASLP, 2020.</span></li>
+    <li><b>[7]</b><span>B. Vanderplaetse, S. Dupont. <i>Improved soccer action spotting using both audio and video streams.</i> CVPR Workshops, 2020.</span></li>
+    <li><b>[8]</b><span>Y. Gong, Y.-A. Chung, J. Glass. <i>AST: Audio Spectrogram Transformer.</i> Interspeech, 2021.</span></li>
+    <li><b>[9]</b><span>A. Baevski et al. <i>wav2vec 2.0: a framework for self-supervised learning of speech representations.</i> NeurIPS, 2020.</span></li>
+    <li><b>[10]</b><span>S. Giancola, B. Ghanem. <i>Temporally-aware feature pooling for action spotting in soccer broadcasts.</i> CVPR Workshops, 2021.</span></li>
+  </ol>
+  <div class="pagenum">9 / 10</div>
+</section>
+
+<!-- ===================== 10. ENCERRAMENTO ===================== -->
+<section class="slide dark end">
+  <div class="wave">
+    <i style="height:16px"></i><i style="height:24px"></i><i style="height:16px"></i>
+    <i class="on" style="height:44px"></i><i class="on" style="height:68px"></i><i class="on" style="height:94px"></i><i class="on" style="height:110px"></i><i class="on" style="height:94px"></i><i class="on" style="height:68px"></i><i class="on" style="height:44px"></i>
+    <i style="height:16px"></i><i style="height:24px"></i><i style="height:16px"></i>
+  </div>
+  <h1>Obrigado!</h1>
+  <p class="sub">Perguntas? · Equipe Ouvindo o Gol</p>
+  <div class="pagenum">10 / 10</div>
+</section>
+
+</body>
+</html>
