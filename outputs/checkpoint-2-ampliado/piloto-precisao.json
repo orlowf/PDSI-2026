@@ -1,0 +1,70 @@
+[
+  {
+    "jogo": "england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal",
+    "tempo": 1,
+    "janela": 4,
+    "janelas": 1349,
+    "erro_absoluto_maximo": 0.0011805295944213867,
+    "correlacao_ordem": 0.9999956849661203,
+    "acordo": {
+      "95": {
+        "picos_fp32": 37,
+        "picos_fp16": 37,
+        "intersecao_sobre_uniao": 1.0,
+        "top3_identico": true
+      },
+      "97": {
+        "picos_fp32": 23,
+        "picos_fp16": 23,
+        "intersecao_sobre_uniao": 1.0,
+        "top3_identico": true
+      },
+      "98": {
+        "picos_fp32": 15,
+        "picos_fp16": 15,
+        "intersecao_sobre_uniao": 1.0,
+        "top3_identico": true
+      },
+      "99": {
+        "picos_fp32": 7,
+        "picos_fp16": 7,
+        "intersecao_sobre_uniao": 1.0,
+        "top3_identico": true
+      }
+    }
+  },
+  {
+    "jogo": "england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal",
+    "tempo": 1,
+    "janela": 2,
+    "janelas": 1350,
+    "erro_absoluto_maximo": 0.000992894172668457,
+    "correlacao_ordem": 0.9999960164519542,
+    "acordo": {
+      "95": {
+        "picos_fp32": 51,
+        "picos_fp16": 51,
+        "intersecao_sobre_uniao": 1.0,
+        "top3_identico": true
+      },
+      "97": {
+        "picos_fp32": 31,
+        "picos_fp16": 31,
+        "intersecao_sobre_uniao": 1.0,
+        "top3_identico": true
+      },
+      "98": {
+        "picos_fp32": 18,
+        "picos_fp16": 18,
+        "intersecao_sobre_uniao": 1.0,
+        "top3_identico": true
+      },
+      "99": {
+        "picos_fp32": 12,
+        "picos_fp16": 12,
+        "intersecao_sobre_uniao": 1.0,
+        "top3_identico": true
+      }
+    }
+  }
+]

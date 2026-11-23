@@ -1,0 +1,31 @@
+lote,metodo,selecao,classe,acertos,anotados,revocacao
+Burnley-Arsenal 1T,so volume,todos,gol,1,1,1.0
+Burnley-Arsenal 1T,so volume,todos,finalizacao no alvo,1,1,1.0
+Burnley-Arsenal 1T,so volume,todos,finalizacao para fora,0,1,0.0
+Burnley-Arsenal 1T,so volume,todos,penalti,0,0,
+Burnley-Arsenal 1T,so volume,todos,expulsao,0,0,
+Burnley-Arsenal 1T,so volume,top3,gol,1,1,1.0
+Burnley-Arsenal 1T,so volume,top3,finalizacao no alvo,0,1,0.0
+Burnley-Arsenal 1T,so volume,top3,finalizacao para fora,0,1,0.0
+Burnley-Arsenal 1T,so volume,top3,penalti,0,0,
+Burnley-Arsenal 1T,so volume,top3,expulsao,0,0,
+Burnley-Arsenal 1T,vol+bonus tom,todos,gol,1,1,1.0
+Burnley-Arsenal 1T,vol+bonus tom,todos,finalizacao no alvo,0,1,0.0
+Burnley-Arsenal 1T,vol+bonus tom,todos,finalizacao para fora,0,1,0.0
+Burnley-Arsenal 1T,vol+bonus tom,todos,penalti,0,0,
+Burnley-Arsenal 1T,vol+bonus tom,todos,expulsao,0,0,
+Burnley-Arsenal 1T,vol+bonus tom,top3,gol,1,1,1.0
+Burnley-Arsenal 1T,vol+bonus tom,top3,finalizacao no alvo,0,1,0.0
+Burnley-Arsenal 1T,vol+bonus tom,top3,finalizacao para fora,0,1,0.0
+Burnley-Arsenal 1T,vol+bonus tom,top3,penalti,0,0,
+Burnley-Arsenal 1T,vol+bonus tom,top3,expulsao,0,0,
+Burnley-Arsenal 1T,wav2vec 2.0,todos,gol,1,1,1.0
+Burnley-Arsenal 1T,wav2vec 2.0,todos,finalizacao no alvo,0,1,0.0
+Burnley-Arsenal 1T,wav2vec 2.0,todos,finalizacao para fora,0,1,0.0
+Burnley-Arsenal 1T,wav2vec 2.0,todos,penalti,0,0,
+Burnley-Arsenal 1T,wav2vec 2.0,todos,expulsao,0,0,
+Burnley-Arsenal 1T,wav2vec 2.0,top3,gol,1,1,1.0
+Burnley-Arsenal 1T,wav2vec 2.0,top3,finalizacao no alvo,0,1,0.0
+Burnley-Arsenal 1T,wav2vec 2.0,top3,finalizacao para fora,0,1,0.0
+Burnley-Arsenal 1T,wav2vec 2.0,top3,penalti,0,0,
+Burnley-Arsenal 1T,wav2vec 2.0,top3,expulsao,0,0,

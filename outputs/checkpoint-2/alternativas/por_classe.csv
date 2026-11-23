@@ -1,0 +1,101 @@
+lote,metodo,selecao,classe,acertos,anotados,revocacao
+ajuste,vol+bonus tom,top3,gol,11,36,0.3055555555555556
+ajuste,vol+bonus tom,top3,finalizacao no alvo,4,70,0.05714285714285714
+ajuste,vol+bonus tom,top3,finalizacao para fora,1,42,0.023809523809523808
+ajuste,vol+bonus tom,top3,penalti,0,4,0.0
+ajuste,vol+bonus tom,top3,expulsao,0,1,0.0
+ajuste,vol+bonus tom,todos,gol,18,36,0.5
+ajuste,vol+bonus tom,todos,finalizacao no alvo,8,70,0.11428571428571428
+ajuste,vol+bonus tom,todos,finalizacao para fora,5,42,0.11904761904761904
+ajuste,vol+bonus tom,todos,penalti,0,4,0.0
+ajuste,vol+bonus tom,todos,expulsao,0,1,0.0
+ajuste,wav2vec 2.0,top3,gol,14,36,0.3888888888888889
+ajuste,wav2vec 2.0,top3,finalizacao no alvo,2,70,0.02857142857142857
+ajuste,wav2vec 2.0,top3,finalizacao para fora,2,42,0.047619047619047616
+ajuste,wav2vec 2.0,top3,penalti,0,4,0.0
+ajuste,wav2vec 2.0,top3,expulsao,1,1,1.0
+ajuste,wav2vec 2.0,todos,gol,27,36,0.75
+ajuste,wav2vec 2.0,todos,finalizacao no alvo,26,70,0.37142857142857144
+ajuste,wav2vec 2.0,todos,finalizacao para fora,14,42,0.3333333333333333
+ajuste,wav2vec 2.0,todos,penalti,1,4,0.25
+ajuste,wav2vec 2.0,todos,expulsao,1,1,1.0
+ajuste,fusao,top3,gol,16,36,0.4444444444444444
+ajuste,fusao,top3,finalizacao no alvo,2,70,0.02857142857142857
+ajuste,fusao,top3,finalizacao para fora,2,42,0.047619047619047616
+ajuste,fusao,top3,penalti,0,4,0.0
+ajuste,fusao,top3,expulsao,1,1,1.0
+ajuste,fusao,todos,gol,29,36,0.8055555555555556
+ajuste,fusao,todos,finalizacao no alvo,34,70,0.4857142857142857
+ajuste,fusao,todos,finalizacao para fora,16,42,0.38095238095238093
+ajuste,fusao,todos,penalti,1,4,0.25
+ajuste,fusao,todos,expulsao,1,1,1.0
+ajuste,subida arousal,top3,gol,11,36,0.3055555555555556
+ajuste,subida arousal,top3,finalizacao no alvo,5,70,0.07142857142857142
+ajuste,subida arousal,top3,finalizacao para fora,4,42,0.09523809523809523
+ajuste,subida arousal,top3,penalti,0,4,0.0
+ajuste,subida arousal,top3,expulsao,0,1,0.0
+ajuste,subida arousal,todos,gol,24,36,0.6666666666666666
+ajuste,subida arousal,todos,finalizacao no alvo,19,70,0.2714285714285714
+ajuste,subida arousal,todos,finalizacao para fora,18,42,0.42857142857142855
+ajuste,subida arousal,todos,penalti,0,4,0.0
+ajuste,subida arousal,todos,expulsao,1,1,1.0
+ajuste,subida RMS,top3,gol,7,36,0.19444444444444445
+ajuste,subida RMS,top3,finalizacao no alvo,5,70,0.07142857142857142
+ajuste,subida RMS,top3,finalizacao para fora,3,42,0.07142857142857142
+ajuste,subida RMS,top3,penalti,0,4,0.0
+ajuste,subida RMS,top3,expulsao,0,1,0.0
+ajuste,subida RMS,todos,gol,17,36,0.4722222222222222
+ajuste,subida RMS,todos,finalizacao no alvo,18,70,0.2571428571428571
+ajuste,subida RMS,todos,finalizacao para fora,8,42,0.19047619047619047
+ajuste,subida RMS,todos,penalti,0,4,0.0
+ajuste,subida RMS,todos,expulsao,0,1,0.0
+avaliacao,vol+bonus tom,top3,gol,10,19,0.5263157894736842
+avaliacao,vol+bonus tom,top3,finalizacao no alvo,4,69,0.057971014492753624
+avaliacao,vol+bonus tom,top3,finalizacao para fora,3,66,0.045454545454545456
+avaliacao,vol+bonus tom,top3,penalti,1,3,0.3333333333333333
+avaliacao,vol+bonus tom,top3,expulsao,0,0,
+avaliacao,vol+bonus tom,todos,gol,14,19,0.7368421052631579
+avaliacao,vol+bonus tom,todos,finalizacao no alvo,16,69,0.2318840579710145
+avaliacao,vol+bonus tom,todos,finalizacao para fora,11,66,0.16666666666666666
+avaliacao,vol+bonus tom,todos,penalti,1,3,0.3333333333333333
+avaliacao,vol+bonus tom,todos,expulsao,0,0,
+avaliacao,wav2vec 2.0,top3,gol,7,19,0.3684210526315789
+avaliacao,wav2vec 2.0,top3,finalizacao no alvo,7,69,0.10144927536231885
+avaliacao,wav2vec 2.0,top3,finalizacao para fora,3,66,0.045454545454545456
+avaliacao,wav2vec 2.0,top3,penalti,1,3,0.3333333333333333
+avaliacao,wav2vec 2.0,top3,expulsao,0,0,
+avaliacao,wav2vec 2.0,todos,gol,15,19,0.7894736842105263
+avaliacao,wav2vec 2.0,todos,finalizacao no alvo,21,69,0.30434782608695654
+avaliacao,wav2vec 2.0,todos,finalizacao para fora,21,66,0.3181818181818182
+avaliacao,wav2vec 2.0,todos,penalti,2,3,0.6666666666666666
+avaliacao,wav2vec 2.0,todos,expulsao,0,0,
+avaliacao,fusao,top3,gol,9,19,0.47368421052631576
+avaliacao,fusao,top3,finalizacao no alvo,8,69,0.11594202898550725
+avaliacao,fusao,top3,finalizacao para fora,1,66,0.015151515151515152
+avaliacao,fusao,top3,penalti,1,3,0.3333333333333333
+avaliacao,fusao,top3,expulsao,0,0,
+avaliacao,fusao,todos,gol,17,19,0.8947368421052632
+avaliacao,fusao,todos,finalizacao no alvo,33,69,0.4782608695652174
+avaliacao,fusao,todos,finalizacao para fora,26,66,0.3939393939393939
+avaliacao,fusao,todos,penalti,2,3,0.6666666666666666
+avaliacao,fusao,todos,expulsao,0,0,
+avaliacao,subida arousal,top3,gol,7,19,0.3684210526315789
+avaliacao,subida arousal,top3,finalizacao no alvo,7,69,0.10144927536231885
+avaliacao,subida arousal,top3,finalizacao para fora,4,66,0.06060606060606061
+avaliacao,subida arousal,top3,penalti,1,3,0.3333333333333333
+avaliacao,subida arousal,top3,expulsao,0,0,
+avaliacao,subida arousal,todos,gol,10,19,0.5263157894736842
+avaliacao,subida arousal,todos,finalizacao no alvo,20,69,0.2898550724637681
+avaliacao,subida arousal,todos,finalizacao para fora,19,66,0.2878787878787879
+avaliacao,subida arousal,todos,penalti,1,3,0.3333333333333333
+avaliacao,subida arousal,todos,expulsao,0,0,
+avaliacao,subida RMS,top3,gol,2,19,0.10526315789473684
+avaliacao,subida RMS,top3,finalizacao no alvo,3,69,0.043478260869565216
+avaliacao,subida RMS,top3,finalizacao para fora,6,66,0.09090909090909091
+avaliacao,subida RMS,top3,penalti,0,3,0.0
+avaliacao,subida RMS,top3,expulsao,0,0,
+avaliacao,subida RMS,todos,gol,6,19,0.3157894736842105
+avaliacao,subida RMS,todos,finalizacao no alvo,13,69,0.18840579710144928
+avaliacao,subida RMS,todos,finalizacao para fora,15,66,0.22727272727272727
+avaliacao,subida RMS,todos,penalti,0,3,0.0
+avaliacao,subida RMS,todos,expulsao,0,0,

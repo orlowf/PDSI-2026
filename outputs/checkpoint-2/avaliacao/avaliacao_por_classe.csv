@@ -1,0 +1,31 @@
+lote,metodo,selecao,classe,acertos,anotados,revocacao
+avaliacao,so volume,todos,gol,13,19,0.6842105263157895
+avaliacao,so volume,todos,finalizacao no alvo,15,69,0.21739130434782608
+avaliacao,so volume,todos,finalizacao para fora,10,66,0.15151515151515152
+avaliacao,so volume,todos,penalti,1,3,0.3333333333333333
+avaliacao,so volume,todos,expulsao,0,0,
+avaliacao,so volume,top3,gol,9,19,0.47368421052631576
+avaliacao,so volume,top3,finalizacao no alvo,5,69,0.07246376811594203
+avaliacao,so volume,top3,finalizacao para fora,3,66,0.045454545454545456
+avaliacao,so volume,top3,penalti,0,3,0.0
+avaliacao,so volume,top3,expulsao,0,0,
+avaliacao,vol+bonus tom,todos,gol,14,19,0.7368421052631579
+avaliacao,vol+bonus tom,todos,finalizacao no alvo,16,69,0.2318840579710145
+avaliacao,vol+bonus tom,todos,finalizacao para fora,11,66,0.16666666666666666
+avaliacao,vol+bonus tom,todos,penalti,1,3,0.3333333333333333
+avaliacao,vol+bonus tom,todos,expulsao,0,0,
+avaliacao,vol+bonus tom,top3,gol,10,19,0.5263157894736842
+avaliacao,vol+bonus tom,top3,finalizacao no alvo,4,69,0.057971014492753624
+avaliacao,vol+bonus tom,top3,finalizacao para fora,3,66,0.045454545454545456
+avaliacao,vol+bonus tom,top3,penalti,1,3,0.3333333333333333
+avaliacao,vol+bonus tom,top3,expulsao,0,0,
+avaliacao,wav2vec 2.0,todos,gol,15,19,0.7894736842105263
+avaliacao,wav2vec 2.0,todos,finalizacao no alvo,21,69,0.30434782608695654
+avaliacao,wav2vec 2.0,todos,finalizacao para fora,21,66,0.3181818181818182
+avaliacao,wav2vec 2.0,todos,penalti,2,3,0.6666666666666666
+avaliacao,wav2vec 2.0,todos,expulsao,0,0,
+avaliacao,wav2vec 2.0,top3,gol,7,19,0.3684210526315789
+avaliacao,wav2vec 2.0,top3,finalizacao no alvo,7,69,0.10144927536231885
+avaliacao,wav2vec 2.0,top3,finalizacao para fora,3,66,0.045454545454545456
+avaliacao,wav2vec 2.0,top3,penalti,1,3,0.3333333333333333
+avaliacao,wav2vec 2.0,top3,expulsao,0,0,

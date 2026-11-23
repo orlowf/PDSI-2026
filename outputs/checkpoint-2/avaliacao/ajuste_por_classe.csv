@@ -1,0 +1,31 @@
+lote,metodo,selecao,classe,acertos,anotados,revocacao
+ajuste,so volume,todos,gol,17,36,0.4722222222222222
+ajuste,so volume,todos,finalizacao no alvo,7,70,0.1
+ajuste,so volume,todos,finalizacao para fora,2,42,0.047619047619047616
+ajuste,so volume,todos,penalti,0,4,0.0
+ajuste,so volume,todos,expulsao,0,1,0.0
+ajuste,so volume,top3,gol,11,36,0.3055555555555556
+ajuste,so volume,top3,finalizacao no alvo,4,70,0.05714285714285714
+ajuste,so volume,top3,finalizacao para fora,0,42,0.0
+ajuste,so volume,top3,penalti,0,4,0.0
+ajuste,so volume,top3,expulsao,0,1,0.0
+ajuste,vol+bonus tom,todos,gol,18,36,0.5
+ajuste,vol+bonus tom,todos,finalizacao no alvo,8,70,0.11428571428571428
+ajuste,vol+bonus tom,todos,finalizacao para fora,5,42,0.11904761904761904
+ajuste,vol+bonus tom,todos,penalti,0,4,0.0
+ajuste,vol+bonus tom,todos,expulsao,0,1,0.0
+ajuste,vol+bonus tom,top3,gol,11,36,0.3055555555555556
+ajuste,vol+bonus tom,top3,finalizacao no alvo,4,70,0.05714285714285714
+ajuste,vol+bonus tom,top3,finalizacao para fora,1,42,0.023809523809523808
+ajuste,vol+bonus tom,top3,penalti,0,4,0.0
+ajuste,vol+bonus tom,top3,expulsao,0,1,0.0
+ajuste,wav2vec 2.0,todos,gol,27,36,0.75
+ajuste,wav2vec 2.0,todos,finalizacao no alvo,26,70,0.37142857142857144
+ajuste,wav2vec 2.0,todos,finalizacao para fora,14,42,0.3333333333333333
+ajuste,wav2vec 2.0,todos,penalti,1,4,0.25
+ajuste,wav2vec 2.0,todos,expulsao,1,1,1.0
+ajuste,wav2vec 2.0,top3,gol,14,36,0.3888888888888889
+ajuste,wav2vec 2.0,top3,finalizacao no alvo,2,70,0.02857142857142857
+ajuste,wav2vec 2.0,top3,finalizacao para fora,2,42,0.047619047619047616
+ajuste,wav2vec 2.0,top3,penalti,0,4,0.0
+ajuste,wav2vec 2.0,top3,expulsao,1,1,1.0

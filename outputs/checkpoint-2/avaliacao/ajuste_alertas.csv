@@ -1,0 +1,423 @@
+lote,jogo,tempo,metodo,pico_s,intensidade,evento_s,rotulo
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,so volume,1704.5,1.7984588146209717,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,so volume,664.75,1.5009443759918213,662.787,Goal
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,so volume,1528.5,1.0304701328277588,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,so volume,660.0,0.7505691051483154,658.941,Shots on target
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,so volume,315.0,0.6027003526687622,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,so volume,1389.25,0.5611084699630737,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,so volume,671.5,0.5444484949111938,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,so volume,1443.25,0.45596444606781006,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,so volume,283.75,0.24503672122955322,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,so volume,721.0,0.17160746455192566,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,664.75,13.049105709318054,662.787,Goal
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,314.25,2.559060271394467,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,283.75,2.3734539042825977,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,1704.5,2.221993640378762,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,25.75,1.2854149135030961,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,391.75,0.6637632636359703,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,183.5,0.6575342644591144,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,1528.5,0.5611329078674316,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,801.75,0.5530835004687484,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,675.5,0.3629334395574428,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,1389.25,0.23099768161773682,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,1443.25,0.16830939054489047,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,664.0,14.513614596716863,662.787,Goal
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,1532.0,3.758265598561824,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,868.0,1.727479006075276,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,2316.0,1.39997305513847,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,1096.0,1.3483117748639364,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,2340.0,1.3390756731283542,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,1706.0,1.0631739984006705,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,494.0,1.0273322621138608,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,898.0,0.9467328430619428,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,844.0,0.6819608929473091,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,2034.0,0.36533855559532924,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,1568.0,0.362396768383876,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,712.0,0.3342527456373192,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,1100.0,0.3239537151262777,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,402.0,0.17541843838646276,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,so volume,1632.25,1.559675931930542,1630.755,Shots on target
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,so volume,2364.75,1.5403687953948975,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,so volume,1445.0,1.4354248046875,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,so volume,1449.25,0.5779287219047546,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,so volume,2374.5,0.4990190267562866,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,so volume,1410.25,0.464445561170578,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,so volume,2387.75,0.41200727224349976,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,so volume,1858.0,0.40354371070861816,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,so volume,744.0,0.3163217008113861,743.027,Shots on target
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,so volume,1107.75,0.13536584377288818,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,vol+bonus tom,1450.5,5.784641757299317,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,vol+bonus tom,1632.25,4.500394079482817,1630.755,Shots on target
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,vol+bonus tom,1886.0,2.304312406459774,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,vol+bonus tom,653.75,1.2606676045054197,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,vol+bonus tom,2364.75,0.8924318867962682,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,vol+bonus tom,1445.0,0.8749915476278107,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,vol+bonus tom,677.75,0.6194206259393562,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,vol+bonus tom,1830.5,0.4877840294913105,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,vol+bonus tom,1882.75,0.37906113858408985,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,vol+bonus tom,1410.25,0.13634743388711756,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,1890.0,2.8303912213668587,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,614.0,2.7661026928209553,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,1490.0,1.8496008270249282,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,2386.0,1.6830761710209394,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,1742.0,1.5026737920155453,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,216.0,1.2683919519831974,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,788.0,1.198030937172633,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,1148.0,1.077331083064644,1143.208,Shots off target
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,1212.0,0.9386597172180755,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,1244.0,0.9373873154736252,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,548.0,0.8123031877693139,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,1446.0,0.5765187181619469,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,2182.0,0.4785489166470791,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,2712.0,0.4571515228269849,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,2834.0,0.4241865973902561,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,2128.0,0.26439452816092235,2129.324,Shots off target
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,1076.0,0.24001502629406168,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,1746.0,0.19185618684227634,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,1450.0,0.1202428203189525,,
+ajuste,england_epl/2014-2015/2015-04-11 - 19-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,1860.0,0.08906368437145584,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,so volume,2542.25,5.0348968505859375,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,so volume,260.0,0.5477113723754883,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,so volume,269.0,0.541732907295227,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,so volume,2559.25,0.3853248655796051,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,so volume,2552.0,0.3565462827682495,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,so volume,1991.75,0.35477206110954285,1991.0,Goal
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,so volume,141.0,0.2892463207244873,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,so volume,449.5,0.2561371922492981,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,so volume,246.0,0.16131526231765747,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,vol+bonus tom,2542.25,4.893310993909836,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,vol+bonus tom,269.0,0.512582927942276,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,vol+bonus tom,260.0,0.512315034866333,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,vol+bonus tom,2559.25,0.35617491602897644,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,vol+bonus tom,1991.75,0.3297863900661455,1991.0,Goal
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,vol+bonus tom,2552.0,0.31817054748535156,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,vol+bonus tom,141.0,0.24975401163100797,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,vol+bonus tom,449.5,0.2373979389667511,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,wav2vec 2.0,144.0,3.8785727327222985,157.095,Red card
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,wav2vec 2.0,450.0,1.899894651942617,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,wav2vec 2.0,1992.0,1.2108190286890994,1991.0,Goal
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,wav2vec 2.0,158.0,0.9245546472261625,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,wav2vec 2.0,208.0,0.8017705713142189,209.149,Penalty
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,wav2vec 2.0,182.0,0.49250986785862105,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,wav2vec 2.0,1668.0,0.3130079578810716,1662.928,Shots on target
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,wav2vec 2.0,260.0,0.22663977379232803,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,wav2vec 2.0,350.0,0.21456662429396411,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,wav2vec 2.0,862.0,0.18852501096494212,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,wav2vec 2.0,188.0,0.1580986818124024,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,wav2vec 2.0,1086.0,0.1530448833713569,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,wav2vec 2.0,464.0,0.12195604769560697,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,wav2vec 2.0,178.0,0.07931007605002449,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,wav2vec 2.0,368.0,0.016670678927332983,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,1,wav2vec 2.0,2106.0,0.015060934988677666,2106.579,Shots off target
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,so volume,236.5,1.1023930311203003,234.341,Shots on target
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,so volume,1048.0,0.7394088506698608,1044.366,Shots on target
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,so volume,359.75,0.6492464542388916,357.974,Goal
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,so volume,1799.25,0.4260484576225281,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,so volume,2578.5,0.38484445214271545,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,so volume,1753.5,0.3672824203968048,1752.0,Goal
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,so volume,1599.5,0.35388314723968506,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,so volume,2454.25,0.33731335401535034,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,so volume,1121.5,0.1876327097415924,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,so volume,1084.75,0.11903521418571472,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,vol+bonus tom,236.5,1.0774395465850717,234.341,Shots on target
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,vol+bonus tom,1048.0,0.7217945158481593,1044.366,Shots on target
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,vol+bonus tom,359.75,0.6301643550395937,357.974,Goal
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,vol+bonus tom,1799.25,0.4025627970695487,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,vol+bonus tom,2578.5,0.37016591429710055,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,vol+bonus tom,907.75,0.3665252705507362,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,vol+bonus tom,1753.5,0.34966817498207026,1752.0,Goal
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,vol+bonus tom,2454.25,0.3183351457118968,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,vol+bonus tom,1121.5,0.17148631811141907,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,vol+bonus tom,1084.75,0.09857511520385209,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,1754.0,2.4932964538362006,1752.0,Goal
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,288.0,0.9491845907042089,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,2664.0,0.8176685829905477,2663.852,Shots off target
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,2516.0,0.7189988818208102,2515.744,Goal
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,394.0,0.6418272560118559,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,360.0,0.42626282289747053,357.974,Goal
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,1590.0,0.3941078579848907,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,1086.0,0.3066561073370142,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,1108.0,0.2778504257137504,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,1790.0,0.23973898257038773,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,1640.0,0.22969970032990128,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,2228.0,0.17892991713579187,2221.887,Shots off target
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,330.0,0.17115314759349953,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,270.0,0.13484580953622594,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,404.0,0.13276490417829256,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,1814.0,0.11750002823434524,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,334.0,0.09031560534616956,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,1258.0,0.08708692788958583,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,1934.0,0.051084439198370024,,
+ajuste,europe_uefa-champions-league/2014-2015/2015-03-11 - 22-45 Bayern Munich 7 - 0 Shakhtar Donetsk,2,wav2vec 2.0,1810.0,0.007253116151824557,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,so volume,2037.5,1.8123611211776733,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,so volume,553.0,1.4223558902740479,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,so volume,2.25,1.118601679801941,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,so volume,124.5,0.8797355890274048,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,so volume,290.0,0.819361686706543,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,so volume,278.75,0.7686994671821594,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,so volume,79.5,0.4946446716785431,79.756,Goal
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,so volume,323.75,0.2568536400794983,314.338,Shots off target
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,so volume,1430.0,0.1307518482208252,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,vol+bonus tom,556.75,3.0494190749832777,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,vol+bonus tom,2037.5,1.779368281364441,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,vol+bonus tom,2.25,1.0976628959178925,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,vol+bonus tom,290.0,0.9255526688546873,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,vol+bonus tom,124.5,0.8743967809226796,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,vol+bonus tom,278.75,0.7492563128471379,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,vol+bonus tom,79.5,0.4796883761882782,79.756,Goal
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,vol+bonus tom,323.75,0.2418973445892334,314.338,Shots off target
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,vol+bonus tom,1430.0,0.11678498983383179,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,wav2vec 2.0,80.0,5.91501741265606,79.756,Goal
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,wav2vec 2.0,980.0,3.8689410087984584,978.438,Shots off target
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,wav2vec 2.0,12.0,1.814511819524891,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,wav2vec 2.0,1596.0,1.4729241141804588,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,wav2vec 2.0,316.0,1.2281543573488944,314.338,Shots off target
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,wav2vec 2.0,830.0,1.1719146345523503,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,wav2vec 2.0,2242.0,1.0868511134488452,2242.659,Goal
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,wav2vec 2.0,374.0,0.997192276573224,374.999,Shots off target
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,wav2vec 2.0,2540.0,0.7989902568840925,2540.288,Shots on target
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,wav2vec 2.0,1602.0,0.7360478041418812,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,wav2vec 2.0,2282.0,0.20951667460531542,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,wav2vec 2.0,140.0,0.080522800743549,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,1,wav2vec 2.0,2030.0,0.04498693225935124,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,so volume,2751.0,2.0551962852478027,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,so volume,2380.75,0.5779317021369934,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,so volume,2005.75,0.535625159740448,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,so volume,2384.75,0.49326470494270325,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,so volume,1990.0,0.4586612582206726,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,so volume,74.0,0.4570685923099518,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,so volume,4.5,0.41805994510650635,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,so volume,615.25,0.38170328736305237,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,so volume,509.0,0.3404037356376648,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,so volume,707.25,0.12921902537345886,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,vol+bonus tom,2751.0,2.014720071554182,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,vol+bonus tom,2004.5,0.8902699851041388,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,vol+bonus tom,2380.75,0.5611829733848566,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,vol+bonus tom,74.0,0.47451618146345526,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,vol+bonus tom,1990.0,0.46263287274595,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,vol+bonus tom,2384.75,0.45228050470352127,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,vol+bonus tom,615.25,0.36635028600692693,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,vol+bonus tom,509.0,0.32923791646957357,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,vol+bonus tom,4.5,0.327979811429977,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,vol+bonus tom,707.25,0.11805320620536763,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,wav2vec 2.0,302.0,8.132553887575783,300.517,Shots on target
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,wav2vec 2.0,1966.0,6.711389899362363,1965.216,Goal
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,wav2vec 2.0,2748.0,5.926188235104718,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,wav2vec 2.0,508.0,4.335512290384134,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,wav2vec 2.0,1582.0,1.2115942777188637,1583.277,Goal
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,wav2vec 2.0,1212.0,0.8275257368519755,1209.478,Shots off target
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,wav2vec 2.0,16.0,0.6700199381164493,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,wav2vec 2.0,1982.0,0.5363105861006225,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,wav2vec 2.0,1588.0,0.4360525912958826,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,wav2vec 2.0,2730.0,0.19707668238092335,,
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,wav2vec 2.0,1976.0,0.18799194935499575,1963.482,Shots on target
+ajuste,france_ligue-1/2016-2017/2017-05-14 - 22-00 St Etienne 0 - 5 Paris SG,2,wav2vec 2.0,1592.0,0.004806476444529473,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,so volume,1520.75,2.6337320804595947,1519.672,Goal
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,so volume,2002.25,1.2367072105407715,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,so volume,2160.0,0.7971283197402954,2159.176,Goal
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,so volume,1539.0,0.7282207012176514,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,so volume,816.5,0.66648268699646,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,so volume,2043.25,0.6053490042686462,2040.889,Goal
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,so volume,995.25,0.46096253395080566,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,so volume,1573.25,0.37526270747184753,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,so volume,821.5,0.27764856815338135,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,vol+bonus tom,1520.75,2.6337321400642395,1519.672,Goal
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,vol+bonus tom,2002.25,1.2367070913314828,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,vol+bonus tom,2160.0,0.7971283793449415,2159.176,Goal
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,vol+bonus tom,1539.0,0.7282207012176514,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,vol+bonus tom,816.5,0.6664826571941376,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,vol+bonus tom,2043.25,0.6053490340709693,2040.889,Goal
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,vol+bonus tom,995.25,0.46096253395080566,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,vol+bonus tom,1573.25,0.37526270747184753,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,vol+bonus tom,821.5,0.27764856815338135,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,wav2vec 2.0,2082.0,2.829883119885902,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,wav2vec 2.0,1996.0,1.6029698735182287,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,wav2vec 2.0,1582.0,1.2600764949222798,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,wav2vec 2.0,1478.0,0.9656576342522922,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,wav2vec 2.0,894.0,0.707512788524753,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,wav2vec 2.0,2254.0,0.6778043802836033,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,wav2vec 2.0,1518.0,0.6590696830405647,1518.715,Shots on target
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,wav2vec 2.0,1532.0,0.5715059777060003,1519.672,Goal
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,wav2vec 2.0,2062.0,0.49521905450893966,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,wav2vec 2.0,270.0,0.4379506377313085,261.515,Shots on target
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,wav2vec 2.0,2168.0,0.32286682944606016,2159.176,Goal
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,wav2vec 2.0,2004.0,0.1821115790137302,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,wav2vec 2.0,862.0,0.15165106020032448,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,wav2vec 2.0,2074.0,0.1403509117574897,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,wav2vec 2.0,1548.0,0.12821465595436976,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,wav2vec 2.0,682.0,0.00859339563341166,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,1,wav2vec 2.0,2096.0,0.0017877052244799074,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,so volume,19.25,2.508939266204834,18.37,Goal
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,so volume,723.75,1.9298782348632812,721.986,Goal
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,so volume,1222.25,1.449286699295044,1220.336,Goal
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,so volume,739.0,1.2327293157577515,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,so volume,1273.5,0.4652245342731476,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,so volume,577.25,0.2618224024772644,575.211,Shots off target
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,vol+bonus tom,19.25,2.5089394152164406,18.37,Goal
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,vol+bonus tom,723.75,1.9298781752586351,721.986,Goal
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,vol+bonus tom,1222.25,1.449286699295044,1220.336,Goal
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,vol+bonus tom,739.0,1.2327293455600696,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,vol+bonus tom,1273.5,0.4652245342731488,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,vol+bonus tom,577.25,0.26182240247726485,575.211,Shots off target
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,1270.0,4.338741120346852,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,18.0,3.268504167054208,18.33,Shots on target
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,726.0,1.9562493106833303,721.986,Goal
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,1920.0,1.6834512719263701,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,1356.0,1.5167062730095289,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,2084.0,1.1238506747981942,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,28.0,0.8568564441856674,18.37,Goal
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,56.0,0.5551814758228186,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,2050.0,0.45201995068458967,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,2102.0,0.3910294246609496,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,1518.0,0.317423109102696,1514.883,Shots on target
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,778.0,0.3140513980558919,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,1330.0,0.27897277027515655,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,66.0,0.2779645970294098,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,1224.0,0.2662233780087613,1220.336,Goal
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,2622.0,0.13651094682496145,2618.396,Shots off target
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,734.0,0.1013031111391478,721.466,Shots on target
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,740.0,0.09044788918189273,,
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,1232.0,0.04089270224034891,1219.576,Shots on target
+ajuste,germany_bundesliga/2015-2016/2015-10-04 - 18-30 Bayern Munich 5 - 1 Dortmund,2,wav2vec 2.0,1276.0,0.012347423836801319,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,so volume,2033.0,0.7437299489974976,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,so volume,1899.75,0.5846216678619385,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,so volume,1450.5,0.5137148499488831,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,so volume,8.75,0.42035049200057983,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,so volume,1264.75,0.3541533350944519,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,so volume,2392.25,0.28274616599082947,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,so volume,1425.5,0.23188325762748718,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,so volume,2413.75,0.21989132463932037,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,so volume,1211.5,0.17504172027111053,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,so volume,1913.25,0.07123275101184845,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,vol+bonus tom,1899.75,0.5314482748508453,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,vol+bonus tom,2033.0,0.4982755482196808,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,vol+bonus tom,2392.0,0.47135263186030285,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,vol+bonus tom,8.75,0.37126730382442474,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,vol+bonus tom,1450.5,0.3503218740224838,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,vol+bonus tom,1264.75,0.31734098494052887,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,vol+bonus tom,1425.5,0.19916114211082458,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,vol+bonus tom,2030.75,0.14260761439800262,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,vol+bonus tom,2413.75,0.13833212852478027,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,vol+bonus tom,1211.5,0.12582649290561676,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,wav2vec 2.0,492.0,5.476512300583058,490.271,Goal
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,wav2vec 2.0,594.0,2.626081445427517,594.469,Goal
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,wav2vec 2.0,1346.0,2.6102648487104334,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,wav2vec 2.0,1916.0,2.39716042200331,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,wav2vec 2.0,2306.0,1.5057493271332119,2303.698,Shots on target
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,wav2vec 2.0,500.0,0.8727034497017181,489.471,Shots on target
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,wav2vec 2.0,2184.0,0.8020067511521196,2186.259,Shots off target
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,wav2vec 2.0,600.0,0.5906371486920365,593.525,Shots on target
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,wav2vec 2.0,1768.0,0.3417912633118352,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,wav2vec 2.0,1660.0,0.31639639130379305,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,wav2vec 2.0,1520.0,0.3097677173441573,1519.719,Shots on target
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,wav2vec 2.0,1342.0,0.2975716403753612,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,wav2vec 2.0,2190.0,0.1248345450396533,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,1,wav2vec 2.0,1664.0,0.11613578280075654,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,so volume,2405.25,0.9698981046676636,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,so volume,1358.0,0.8655084371566772,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,so volume,1212.75,0.5822668075561523,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,so volume,2263.75,0.5762959718704224,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,so volume,1813.0,0.5726595520973206,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,so volume,518.0,0.5632206797599792,525.132,Shots on target
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,so volume,1539.5,0.46024876832962036,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,so volume,2127.5,0.24271661043167114,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,so volume,1765.25,0.21628031134605408,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,so volume,2134.5,0.12557807564735413,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,vol+bonus tom,2405.25,1.1287674054973345,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,vol+bonus tom,1358.0,0.8424627566337579,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,vol+bonus tom,1212.75,0.5592211717367166,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,vol+bonus tom,1813.0,0.5496139311790462,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,vol+bonus tom,2263.75,0.5490601730346677,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,vol+bonus tom,518.0,0.5384823912382123,525.132,Shots on target
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,vol+bonus tom,1539.5,0.4392981618642803,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,vol+bonus tom,2127.5,0.21967095971107467,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,vol+bonus tom,1765.25,0.19742477893829308,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,vol+bonus tom,2134.5,0.10621204495429981,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,wav2vec 2.0,1424.0,3.8210961517894297,1420.448,Goal
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,wav2vec 2.0,1628.0,3.4463942020946954,1622.168,Goal
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,wav2vec 2.0,1790.0,3.047499613415056,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,wav2vec 2.0,1892.0,2.7576390775135673,1891.362,Goal
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,wav2vec 2.0,1360.0,2.5398164365227434,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,wav2vec 2.0,2696.0,2.0020142248800035,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,wav2vec 2.0,1906.0,1.3186931628954897,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,wav2vec 2.0,1650.0,0.798326972308657,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,wav2vec 2.0,1544.0,0.7375618560109984,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,wav2vec 2.0,270.0,0.7212598134664638,267.19,Shots on target
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,wav2vec 2.0,1946.0,0.7176214185757797,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,wav2vec 2.0,276.0,0.5047220608589242,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,wav2vec 2.0,2690.0,0.4552824472199912,,
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,wav2vec 2.0,1636.0,0.20297130855280265,1621.297,Shots on target
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,wav2vec 2.0,2068.0,0.13005211354639545,2066.9,Shots on target
+ajuste,italy_serie-a/2016-2017/2016-10-02 - 19-00 AC Milan 4 - 3 Sassuolo,2,wav2vec 2.0,1430.0,0.02465727871565626,1420.112,Shots on target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,so volume,767.5,1.8231514692306519,764.028,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,so volume,1901.0,1.3275973796844482,1898.766,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,so volume,1925.5,0.6422199010848999,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,so volume,275.75,0.4148685336112976,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,so volume,2296.25,0.2491290122270584,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,so volume,2481.0,0.19056928157806396,2479.325,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,so volume,2037.25,0.18005076050758362,2035.146,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,vol+bonus tom,1900.25,2.3951848520936294,1898.766,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,vol+bonus tom,2615.75,2.276146937546252,2613.679,Shots off target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,vol+bonus tom,766.25,2.244152011349266,764.028,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,vol+bonus tom,2481.0,2.2325523289657876,2479.325,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,vol+bonus tom,2036.5,2.078501431958962,2035.146,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,vol+bonus tom,1523.75,1.0497577496497394,1522.32,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,vol+bonus tom,191.0,1.0064402328544069,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,vol+bonus tom,238.75,0.8370222754907921,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,vol+bonus tom,1700.5,0.7706850532796861,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,vol+bonus tom,1537.5,0.3850025115067257,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,vol+bonus tom,2493.0,0.10798213920197666,2478.781,Shots on target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,1322.0,1.607686940702465,1321.04,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,1522.0,0.7881438684146258,1522.32,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,1992.0,0.5031021335011783,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,1242.0,0.31957215581242204,1239.747,Shots on target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,2488.0,0.2821457079634606,2479.325,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,776.0,0.2761729430448132,764.028,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,1912.0,0.22032725886608695,1898.766,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,2288.0,0.2112219481641895,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,190.0,0.19594788081383285,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,2614.0,0.18970205623094039,2613.679,Shots off target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,2000.0,0.16362452610615374,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,712.0,0.13511005474425986,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,1538.0,0.1109014220295017,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,540.0,0.093597013234052,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,2462.0,0.08590882239549957,2451.185,Shots on target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,1314.0,0.028743017650216363,1320.048,Shots on target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,2484.0,0.024209297093503057,2478.781,Shots on target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,8.0,0.018616556817065533,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,104.0,0.01783126114033129,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,1,wav2vec 2.0,1518.0,0.0023525651364773026,1521.49,Shots on target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,so volume,352.5,1.4781526327133179,352.04,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,so volume,2678.25,0.7989262938499451,2677.72,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,so volume,97.5,0.5368819832801819,98.321,Shots on target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,so volume,455.25,0.3878771960735321,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,so volume,1526.75,0.38067877292633057,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,so volume,127.0,0.3475078344345093,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,so volume,29.0,0.28341811895370483,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,so volume,370.75,0.2438974678516388,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,so volume,379.5,0.23772770166397095,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,so volume,2704.0,0.16770416498184204,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,so volume,679.75,0.14395901560783386,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,vol+bonus tom,352.5,4.701329303117074,352.04,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,vol+bonus tom,97.5,3.7587605245856794,98.321,Shots on target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,vol+bonus tom,2678.25,3.2445249892555674,2677.72,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,vol+bonus tom,1526.75,1.2872983453555853,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,vol+bonus tom,2431.75,0.9728783509523405,2429.49,Shots on target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,vol+bonus tom,1105.75,0.8430425019089741,1103.457,Shots off target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,vol+bonus tom,705.5,0.7159155669593692,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,vol+bonus tom,455.25,0.5018576041390836,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,vol+bonus tom,2637.0,0.34603217090480715,2630.416,Shots on target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,vol+bonus tom,2487.5,0.20863922111579158,2490.414,Shots off target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,wav2vec 2.0,102.0,4.372485960432554,98.64,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,wav2vec 2.0,354.0,2.749410933241499,352.04,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,wav2vec 2.0,2.0,1.9536853913856786,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,wav2vec 2.0,58.0,1.0719150786929732,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,wav2vec 2.0,2430.0,0.8695892548972544,2429.49,Shots on target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,wav2vec 2.0,1904.0,0.7166036342517534,1904.486,Shots on target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,wav2vec 2.0,2678.0,0.5315797189503852,2677.72,Goal
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,wav2vec 2.0,602.0,0.42529272114261296,602.182,Shots off target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,wav2vec 2.0,14.0,0.3124189557970123,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,wav2vec 2.0,1104.0,0.2704161501812177,1103.457,Shots off target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,wav2vec 2.0,2634.0,0.1096131914996894,2630.416,Shots on target
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,wav2vec 2.0,2258.0,0.10407441868387313,,
+ajuste,spain_laliga/2014-2015/2015-05-23 - 21-30 Real Madrid 7 - 3 Getafe,2,wav2vec 2.0,2254.0,0.012089128969322793,,

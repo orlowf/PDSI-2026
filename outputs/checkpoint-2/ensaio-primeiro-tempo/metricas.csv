@@ -1,0 +1,13 @@
+lote,metodo,selecao,alvo,acertos,alertas,anotados,precisao,revocacao,f1
+Burnley-Arsenal 1T,so volume,todos,lances,2,10,3,0.2,0.6666666666666666,0.30769230769230765
+Burnley-Arsenal 1T,so volume,todos,gols,1,10,1,0.1,1.0,0.18181818181818182
+Burnley-Arsenal 1T,so volume,top3,lances,1,3,3,0.3333333333333333,0.3333333333333333,0.3333333333333333
+Burnley-Arsenal 1T,so volume,top3,gols,1,3,1,0.3333333333333333,1.0,0.5
+Burnley-Arsenal 1T,vol+bonus tom,todos,lances,1,12,3,0.08333333333333333,0.3333333333333333,0.13333333333333333
+Burnley-Arsenal 1T,vol+bonus tom,todos,gols,1,12,1,0.08333333333333333,1.0,0.15384615384615385
+Burnley-Arsenal 1T,vol+bonus tom,top3,lances,1,3,3,0.3333333333333333,0.3333333333333333,0.3333333333333333
+Burnley-Arsenal 1T,vol+bonus tom,top3,gols,1,3,1,0.3333333333333333,1.0,0.5
+Burnley-Arsenal 1T,wav2vec 2.0,todos,lances,1,15,3,0.06666666666666667,0.3333333333333333,0.1111111111111111
+Burnley-Arsenal 1T,wav2vec 2.0,todos,gols,1,15,1,0.06666666666666667,1.0,0.125
+Burnley-Arsenal 1T,wav2vec 2.0,top3,lances,1,3,3,0.3333333333333333,0.3333333333333333,0.3333333333333333
+Burnley-Arsenal 1T,wav2vec 2.0,top3,gols,1,3,1,0.3333333333333333,1.0,0.5
