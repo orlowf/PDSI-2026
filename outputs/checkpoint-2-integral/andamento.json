@@ -1,0 +1,39 @@
+{
+  "estado": "parcial",
+  "total": 500,
+  "prontos": 493,
+  "prontos_por_lote": {
+    "ajuste": 98,
+    "avaliacao": 395
+  },
+  "falhas": {
+    "england_epl/2015-2016/2015-12-28 - 20-30 Manchester United 0 - 0 Chelsea": {
+      "lote": "ajuste",
+      "motivo": "HQ, 2º tempo: faixa 1: cronologia HQ sem duas correspondências independentes com o 224p/720p. Revisão manual necessária."
+    },
+    "germany_bundesliga/2015-2016/2015-08-22 - 16-30 Hoffenheim 1 - 2 Bayern Munich": {
+      "lote": "ajuste",
+      "motivo": "HQ, 1º tempo: faixa 1: cronologia HQ sem duas correspondências independentes com o 224p/720p. Revisão manual necessária."
+    },
+    "england_epl/2015-2016/2015-11-29 - 15-00 Tottenham 0 - 0 Chelsea": {
+      "lote": "avaliacao",
+      "motivo": "HQ, 1º tempo: faixa 1: cronologia HQ sem duas correspondências independentes com o 224p/720p. Revisão manual necessária."
+    },
+    "spain_laliga/2016-2017/2017-03-04 - 18-15 Eibar 1 - 4 Real Madrid": {
+      "lote": "avaliacao",
+      "motivo": "HQ, 1º tempo: faixa 1: lacunas nos pacotes HQ dentro do tempo anotado. Revisão manual necessária."
+    },
+    "england_epl/2015-2016/2016-01-24 - 19-00 Arsenal 0 - 1 Chelsea": {
+      "lote": "avaliacao",
+      "motivo": "HQ, 1º tempo: referências 224p/720p insuficientes para comprovar o relógio HQ. Revisão manual necessária."
+    },
+    "spain_laliga/2015-2016/2015-11-29 - 18-00 Eibar 0 - 2 Real Madrid": {
+      "lote": "avaliacao",
+      "motivo": "HQ, 1º tempo: faixa 1: WAV HQ não preservou o número de amostras e o relógio. faixa 2: cronologia HQ sem duas correspondências independentes com o 224p/720p. Revisão manual necessária."
+    },
+    "england_epl/2015-2016/2015-10-03 - 17-00 Manchester City 6 - 1 Newcastle Utd": {
+      "lote": "avaliacao",
+      "motivo": "HQ, 1º tempo: faixa 1: cronologia HQ sem duas correspondências independentes com o 224p/720p. Revisão manual necessária."
+    }
+  }
+}

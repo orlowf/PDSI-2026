@@ -23,31 +23,46 @@ O projeto localiza horários candidatos a clipes de futebol **pela trilha de áu
 
 ### Dados e avaliação
 
-Na reavaliação do Checkpoint 2, usamos **42 partidas que ficaram fora da primeira rodada**, com **12 jogos de ajuste** da divisão de treino e **30 jogos inéditos de avaliação** da divisão de validação. Os jogos abrangem seis competições e o lote de avaliação tem **753 lances-alvo anotados**. [SoccerNet-v2](https://www.soccer-net.org/tasks/action-spotting)
+Reunimos as 500 partidas anotadas das divisões de origem do [SoccerNet-v2](https://www.soccer-net.org/tasks/action-spotting) e criamos uma divisão própria por partida, estratificada por competição. Processamos **493 partidas** em seis competições, com **98 para ajuste** e **395 para avaliação**. Sete partidas ficaram de fora após a verificação da mídia. [Partidas e motivos](outputs/checkpoint-2-integral/pendencias.csv)
 
-Um **alerta** é um horário sugerido para revisar um lance. Um acerto associa o alerta à anotação disponível mais próxima em até **15 s**. Cada anotação pode receber um único acerto. A comparação apresentada no seminário usa todos os alertas gerados em cada partida.
+Um **alerta** é um horário sugerido para revisar um lance. Um acerto associa o alerta à anotação disponível mais próxima em até **15 s**. Cada anotação pode receber um único acerto. Avaliamos todos os alertas gerados, sem limite por tempo de jogo ou por partida.
 
 ### Métodos
 
 1. **Regra de volume e tom.** Mede o volume RMS e dá um bônus quando o tom, estimado com pYIN, sobe.
 2. **Wav2vec sozinho.** Estima a intensidade da reação em janelas de 4 s de áudio. [Modelo utilizado](https://huggingface.co/audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim)
-3. **Fusão da regra com o Wav2vec.** Reúne alertas próximos das duas listas e mantém os horários sugeridos por apenas um método. [Plano e protocolo](docs/checkpoint-2-ampliado-plano.md)
+3. **Fusão da regra com o Wav2vec.** Agrupa alertas próximos em até 4 s e usa um peso por método e a posição no ranking para escolher um horário por grupo. Alertas isolados também entram.
 
-## Checkpoint 2 · Resultados reavaliados
+Nos 98 jogos de ajuste, o F1 selecionou o percentil **97** para a regra, o percentil **98** para o Wav2vec e o peso de **75%** do Wav2vec na fusão. Mantivemos esses parâmetros nos 395 jogos de avaliação. [Calibração](outputs/checkpoint-2-integral/calibracao.csv)
 
-| Método | Alertas | Lances encontrados | Precisão | Recall |
-| --- | ---: | ---: | ---: | ---: |
-| Regra de volume e tom | 570 | 193 | 33,9% | 25,6% |
-| Wav2vec sozinho | 1.038 | 324 | 31,2% | 43,0% |
-| Fusão da regra com o Wav2vec | 1.382 | 382 | 27,6% | 50,7% |
+## Checkpoint 2 · Resultados finais
 
-A regra teve a maior precisão. A fusão encontrou 58 lances a mais que o Wav2vec sozinho e gerou 344 alertas adicionais para revisão.
+Os 395 jogos de avaliação somaram **10.120 lances anotados**.
 
-[Relatório ampliado com todos os testes](docs/checkpoint-2-ampliado-resultados.md) · [Métricas e calibração](outputs/checkpoint-2-ampliado/) · [Primeira rodada em 12 jogos](docs/checkpoint-2-resultados.md)
+| Método | Alertas | Lances encontrados | Precisão | Recall | F1 |
+| --- | ---: | ---: | ---: | ---: | ---: |
+| Regra de volume e tom | 10.990 | 3.214 | 29,2% | 31,8% | 0,305 |
+| Wav2vec sozinho | 13.562 | 4.293 | 31,7% | 42,4% | 0,363 |
+| Fusão da regra com o Wav2vec | 21.054 | 5.530 | 26,3% | 54,6% | 0,355 |
+
+O áudio ajudou a localizar lances. O Wav2vec obteve o maior F1, e a fusão encontrou a maior parcela dos lances anotados. Muitos alertas ficaram sem correspondência com esses lances.
+
+[Relatório final](outputs/checkpoint-2-integral/resumo.md) · [Resultados e configuração](outputs/checkpoint-2-integral/) · [Rodada de 42 jogos](docs/checkpoint-2-ampliado-resultados.md) · [Primeira rodada de 12 jogos](docs/checkpoint-2-resultados.md)
 
 ## Como reproduzir
 
-O [relatório ampliado](docs/checkpoint-2-ampliado-resultados.md#reprodução) reúne os comandos, a revisão do modelo, os jogos selecionados e a configuração de execução. A mídia do SoccerNet fica local, em diretório ignorado pelo Git.
+O [protocolo](outputs/checkpoint-2-integral/protocolo.json) registra a divisão por partida e a revisão do modelo. A execução usa as anotações em `data/soccernet/videos-224p/`, FFmpeg e as [dependências Python](docs/checkpoint-2-execucao.md#como-reproduzir). Use uma conta do Hugging Face com acesso aprovado ao SoccerNet para obter o áudio. A mídia e o cache de processamento ficam locais.
+
+```bash
+python executar_checkpoint2_integral.py --somente-planejar
+hf auth login
+hf download audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim \
+  --revision 6eba34a2485ea31cb03600241787c3a5edab8626 \
+  --local-dir .cache/checkpoint-2/model
+python executar_checkpoint2_integral.py
+```
+
+Para recalcular as métricas a partir dos escores salvos localmente, use `python avaliar_checkpoint2_integral.py --manifesto outputs/checkpoint-2-integral/manifesto.csv`.
 
 ## Cronograma
 

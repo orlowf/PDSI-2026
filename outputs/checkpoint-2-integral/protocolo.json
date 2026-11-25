@@ -1,0 +1,44 @@
+{
+  "semente": "pdsi-cp2-integral-2026-v1",
+  "fracao_ajuste": 0.2,
+  "divisao_por": "partida, estratificada por competição",
+  "origem": {
+    "valid": 100,
+    "train": 300,
+    "test": 100
+  },
+  "lotes": {
+    "ajuste": 100,
+    "avaliacao": 400
+  },
+  "competicoes": {
+    "spain_laliga": {
+      "ajuste": 23,
+      "avaliacao": 94
+    },
+    "italy_serie-a": {
+      "ajuste": 19,
+      "avaliacao": 77
+    },
+    "england_epl": {
+      "ajuste": 19,
+      "avaliacao": 76
+    },
+    "europe_uefa-champions-league": {
+      "ajuste": 20,
+      "avaliacao": 81
+    },
+    "france_ligue-1": {
+      "ajuste": 8,
+      "avaliacao": 30
+    },
+    "germany_bundesliga": {
+      "ajuste": 11,
+      "avaliacao": 42
+    }
+  },
+  "model": "audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+  "revisao_modelo": "6eba34a2485ea31cb03600241787c3a5edab8626",
+  "janela_s": 4,
+  "passo_s": 2
+}
