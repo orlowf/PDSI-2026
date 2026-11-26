@@ -1,7 +1,12 @@
 """Extrai log-mel e atributos de quadro de cada tempo de jogo do Checkpoint 3."""
 
+import argparse
+import csv
 import os
+import shutil
+import sys
 import tempfile
+import time
 from pathlib import Path
 
 import librosa
@@ -92,3 +97,108 @@ def tempo_pronto(destino):
     if mel.ndim != 2 or mel.shape[1] != N_MELS or not np.isfinite(mel).all():
         return False
     return all(s.shape == (mel.shape[0],) and np.isfinite(s).all() for s in series.values())
+
+
+RAIZ_ATRIBUTOS = Path(".cache/checkpoint-3/atributos")
+RAIZ_MIDIA = Path(".cache/checkpoint-3/midia")
+REGISTRO = Path("outputs/checkpoint-3/extracao.csv")
+REVISAO_CP2 = Path(".cache/checkpoint-2-integral/revisao_midia.txt")
+LIVRE_MINIMO = 10 * 10**9
+CAMPOS_REGISTRO = ("jogo", "estado", "segundos", "motivo")
+
+
+def _adquirir_padrao(*args, **kwargs):
+    from adquirir_midias_checkpoint2_integral import acquire_game
+
+    return acquire_game(*args, **kwargs)
+
+
+def _reaproveitar_padrao(jogo):
+    from executar_checkpoint2_integral import cached_wavs
+
+    return cached_wavs(jogo)
+
+
+def processar_jogo(jogo, raiz_atributos, raiz_midia, revisao, faixas, adquirir=None, reaproveitar=None):
+    """Garante log-mel e atributos dos dois tempos; apaga só o áudio que este passo baixou."""
+    destinos = {t: Path(raiz_atributos) / jogo.path / str(t) for t in (1, 2)}
+    faltam = [t for t, destino in destinos.items() if not tempo_pronto(destino)]
+    if not faltam:
+        return "ja_existia"
+    existentes = (reaproveitar or _reaproveitar_padrao)(jogo)
+    if existentes:
+        for t in faltam:
+            extrair_tempo(existentes[t - 1], destinos[t])
+        return "reaproveitado"
+    pasta_baixada = Path(raiz_midia) / "audio" / jogo.path
+    try:
+        wavs = (adquirir or _adquirir_padrao)(jogo.path, jogo.source, jogo.annotations,
+                                              Path(raiz_midia), revisao, faixas)
+        for t in faltam:
+            extrair_tempo(wavs[t - 1], destinos[t])
+    finally:
+        shutil.rmtree(pasta_baixada, ignore_errors=True)
+    return "pronto"
+
+
+def _registrar(registro, **linha):
+    registro = Path(registro)
+    registro.parent.mkdir(parents=True, exist_ok=True)
+    novo = not registro.exists()
+    with registro.open("a", encoding="utf-8", newline="") as stream:
+        writer = csv.DictWriter(stream, fieldnames=CAMPOS_REGISTRO)
+        if novo:
+            writer.writeheader()
+        writer.writerow({campo: linha.get(campo, "") for campo in CAMPOS_REGISTRO})
+
+
+def executar(jogos, raiz_atributos, raiz_midia, revisao, faixas, registro,
+             adquirir=None, reaproveitar=None, uso_disco=shutil.disk_usage):
+    for jogo in jogos:
+        Path(raiz_atributos).mkdir(parents=True, exist_ok=True)
+        livre = uso_disco(raiz_atributos).free
+        if livre < LIVRE_MINIMO:
+            _registrar(registro, jogo=jogo.path, estado="parado",
+                       motivo=f"disco com {livre / 10**9:.1f} GB livres (mínimo 10 GB)")
+            return
+        inicio = time.monotonic()
+        try:
+            estado = processar_jogo(jogo, raiz_atributos, raiz_midia, revisao, faixas, adquirir, reaproveitar)
+            motivo = ""
+        except Exception as exc:  # um jogo ruim não interrompe a fila
+            estado, motivo = "falha", f"{type(exc).__name__}: {str(exc)[:300]}"
+            if type(exc).__name__ == "AccessError":
+                _registrar(registro, jogo=jogo.path, estado="parado", motivo=motivo)
+                return
+        _registrar(registro, jogo=jogo.path, estado=estado,
+                   segundos=f"{time.monotonic() - inicio:.1f}", motivo=motivo)
+        print(f"{estado:13s} {jogo.path}", flush=True)
+
+
+def _jogos_da_divisao():
+    from cp3.divisao import ler_divisao
+    from executar_checkpoint2_integral import games_from_annotations
+    from ouvindo_o_gol import ANNOTATIONS_DIR
+
+    divisao = ler_divisao()
+    catalogo = {jogo.path: jogo for jogo in games_from_annotations(ANNOTATIONS_DIR)}
+    return [catalogo[j] for j in divisao["treino"]] + [catalogo[j] for j in divisao["teste"]]
+
+
+def main(argv=None):
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument("--faixas", type=int, default=8, help="conexões HTTP paralelas por mídia")
+    parser.add_argument("--limite", type=int, help="processa só os N primeiros jogos")
+    args = parser.parse_args(argv)
+    jogos = _jogos_da_divisao()[:args.limite]
+    if REVISAO_CP2.is_file():
+        revisao = REVISAO_CP2.read_text().strip()
+    else:
+        from adquirir_midias_checkpoint2_integral import resolve_revision
+
+        revisao = resolve_revision()
+    executar(jogos, RAIZ_ATRIBUTOS, RAIZ_MIDIA, revisao, args.faixas, REGISTRO)
+
+
+if __name__ == "__main__":
+    sys.exit(main())
