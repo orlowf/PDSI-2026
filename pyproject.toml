@@ -11,7 +11,7 @@ dependencies = [
 ]
 
 [project.optional-dependencies]
-cp3 = ["lightgbm", "scikit-learn", "torch", "pytest"]
+cp3 = ["scikit-learn", "torch", "pytest", "joblib"]
 
 [tool.pytest.ini_options]
 testpaths = ["tests"]

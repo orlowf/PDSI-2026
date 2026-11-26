@@ -66,3 +66,28 @@ def test_salvar_e_carregar(tmp_path):
     modelo.salvar(estado, tmp_path / "dobra0")
     t = tempo_com_rajadas(60)
     assert np.allclose(modelo.prever(estado, t), modelo.prever(modelo.carregar(tmp_path / "dobra0"), t))
+
+
+def test_classico_convive_com_torch():
+    """Duas libomp no mesmo processo (LightGBM + torch) derrubam o macOS; o modelo 1 precisa conviver com o torch."""
+    import subprocess
+    import sys
+    from pathlib import Path
+
+    codigo = ("import torch; from tests.cp3.test_classico import tempo_com_rajadas; from cp3.classico import Classico; "
+              "m = Classico(); e = m.treinar([tempo_com_rajadas(s) for s in range(3)], [tempo_com_rajadas(9)], 4.0); "
+              "m.prever(e, tempo_com_rajadas(10)); torch.nn.Conv1d(4, 4, 3)(torch.randn(2, 4, 50)).sum().backward()")
+    raiz = Path(__file__).resolve().parents[2]
+    resultado = subprocess.run([sys.executable, "-c", codigo], cwd=raiz, capture_output=True, timeout=240)
+    assert resultado.returncode == 0, resultado.stderr.decode()[-500:]
+
+
+def test_importancia_grava_todos_os_atributos(tmp_path):
+    from cp3.classico import importancia
+
+    modelo = Classico()
+    estado = modelo.treinar([tempo_com_rajadas(s) for s in range(4)], [tempo_com_rajadas(50)], 4.0)
+    linhas = importancia(modelo, estado, [tempo_com_rajadas(70)], 4.0, tmp_path / "imp.csv", linhas_amostra=500, repeticoes=1)
+    assert len(linhas) == len(estado.nomes_atributos_)
+    assert linhas[0][1] >= linhas[-1][1]
+    assert (tmp_path / "imp.csv").read_text().startswith("atributo,queda_precisao_media")

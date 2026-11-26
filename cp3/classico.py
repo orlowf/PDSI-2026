@@ -1,4 +1,7 @@
-"""Modelo 1 do Checkpoint 3: LightGBM sobre atributos acústicos manuais."""
+"""Modelo 1 do Checkpoint 3: gradient boosting (scikit-learn) sobre atributos acústicos manuais.
+
+LightGBM foi descartado: a libomp dele e a do PyTorch no mesmo processo derrubam o macOS.
+"""
 
 import argparse
 import csv
@@ -6,10 +9,11 @@ import json
 import warnings
 from pathlib import Path
 
-import lightgbm as lgb
+import joblib
 import numpy as np
 from numpy.lib.stride_tricks import sliding_window_view
 from scipy.fft import dct
+from sklearn.ensemble import HistGradientBoostingClassifier
 
 from cp3.conjunto import QUADROS_POR_PASSO, PASSO_S
 from cp3.extrair import CHAVES_QUADRO
@@ -21,8 +25,8 @@ CONTEXTO = ("rms", "e_voz", "e_alta", "fluxo", "centroide")
 ANTES_PASSOS = 60  # 30 s
 DEPOIS_PASSOS = 20  # 10 s
 FRACAO_NEGATIVOS = 0.25
-PARAMETROS = dict(objective="binary", learning_rate=0.05, num_leaves=63, bagging_fraction=0.8,
-                  bagging_freq=1, feature_fraction=0.8, verbose=-1, seed=2026)
+PARAMETROS = dict(learning_rate=0.05, max_leaf_nodes=63, max_features=0.8, l2_regularization=1.0,
+                  early_stopping=True, scoring="loss", random_state=2026)
 
 
 def _por_quadro(t):
@@ -81,7 +85,7 @@ def atributos_janela(t):
 
 
 class Classico:
-    def __init__(self, cache=None, num_rodadas=2000, parada=100):
+    def __init__(self, cache=None, num_rodadas=1000, parada=30):
         self.cache = Path(cache) if cache else None
         self.num_rodadas = num_rodadas
         self.parada = parada
@@ -112,41 +116,43 @@ class Classico:
                 x, y = x[manter], y[manter]
             xs.append(x)
             ys.append(y)
-        return np.concatenate(xs), np.concatenate(ys).astype(np.float32)
+        return np.concatenate(xs), np.concatenate(ys)
 
     def treinar(self, treino, validacao, sigma_s):
+        """Parada antecipada pela perda nos jogos de validação (separados por jogo, não por linha).
+
+        Sem pesos por classe: com pesos, a discretização do scikit-learn usa percentis ponderados e
+        fica lenta demais; a amostragem de negativos já reduz o desbalanceamento.
+        """
         x, y = self._conjunto(treino, sigma_s, amostrar=True)
         xv, yv = self._conjunto(validacao, sigma_s, amostrar=True)
-        positivos = max(float(y.sum()), 1.0)
-        parametros = dict(PARAMETROS, scale_pos_weight=(len(y) - positivos) / positivos)
-        dados = lgb.Dataset(x, y, feature_name=self.nomes, free_raw_data=True)
-        dados_val = lgb.Dataset(xv, yv, reference=dados)
-        return lgb.train(parametros, dados, self.num_rodadas, valid_sets=[dados_val],
-                         callbacks=[lgb.early_stopping(self.parada, verbose=False)])
+        modelo = HistGradientBoostingClassifier(max_iter=self.num_rodadas, n_iter_no_change=self.parada, **PARAMETROS)
+        modelo.fit(x, y, X_val=xv, y_val=yv)
+        modelo.nomes_atributos_ = self.nomes
+        return modelo
 
     def prever(self, estado, t):
-        return estado.predict(self._atributos(t), num_iteration=estado.best_iteration).astype(np.float32)
+        return estado.predict_proba(self._atributos(t))[:, 1].astype(np.float32)
 
     def salvar(self, estado, base):
-        estado.save_model(str(base.with_suffix(".txt")), num_iteration=estado.best_iteration)
+        joblib.dump(estado, base.with_suffix(".joblib"))
 
     def carregar(self, base):
-        return lgb.Booster(model_file=str(base.with_suffix(".txt")))
+        return joblib.load(base.with_suffix(".joblib"))
 
 
-def importancia(raiz, sigma, saida):
-    """Ganho médio de cada atributo nos 5 modelos das dobras."""
-    from cp3.cv import N_DOBRAS, base_modelo
+def importancia(modelo, estado, tempos, sigma_s, saida, linhas_amostra=20000, repeticoes=3):
+    """Importância por permutação (queda da precisão média) em passos de tempos fora da dobra do modelo."""
+    from sklearn.inspection import permutation_importance
 
-    total = None
-    for dobra in range(N_DOBRAS):
-        booster = lgb.Booster(model_file=str(base_modelo(raiz, "classico", sigma, dobra).with_suffix(".txt")))
-        ganho = dict(zip(booster.feature_name(), booster.feature_importance("gain")))
-        total = ganho if total is None else {k: total[k] + v for k, v in ganho.items()}
-    linhas = sorted(((k, v / N_DOBRAS) for k, v in total.items()), key=lambda kv: -kv[1])
+    x, y = modelo._conjunto(tempos, sigma_s, amostrar=True)
+    escolhidos = np.random.default_rng(2026).permutation(len(y))[:linhas_amostra]
+    resultado = permutation_importance(estado, x[escolhidos], y[escolhidos], scoring="average_precision",
+                                       n_repeats=repeticoes, random_state=2026)
+    linhas = sorted(zip(estado.nomes_atributos_, resultado.importances_mean), key=lambda kv: -kv[1])
     with Path(saida).open("w", newline="", encoding="utf-8") as stream:
         writer = csv.writer(stream)
-        writer.writerow(["atributo", "ganho_medio"])
+        writer.writerow(["atributo", "queda_precisao_media"])
         writer.writerows(linhas)
     return linhas
 
@@ -164,7 +170,11 @@ def main(argv=None):
     modelo = Classico(cache=RAIZ / "classico")
     rodar_cv("classico", modelo, tempos, divisao["dobras"])
     escolha = escolher_operacao("classico", tempos)
-    importancia(RAIZ, escolha["sigma"], SAIDA / "importancia_classico.csv")
+    from cp3.cv import base_modelo
+
+    estado = modelo.carregar(base_modelo(RAIZ, "classico", escolha["sigma"], 0))
+    fora_da_dobra = [t for t in tempos if divisao["dobras"][t.jogo] == 0]
+    importancia(modelo, estado, fora_da_dobra, escolha["sigma"], SAIDA / "importancia_classico.csv")
     print(json.dumps(escolha), flush=True)
 
 
