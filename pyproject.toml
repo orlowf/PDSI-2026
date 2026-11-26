@@ -9,3 +9,10 @@ dependencies = [
     "scipy>=1.18.1",
     "soundfile>=0.14.0",
 ]
+
+[project.optional-dependencies]
+cp3 = ["lightgbm", "scikit-learn", "torch", "pytest"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+markers = ["lento: usa dados locais do CP2 ou treino real"]
