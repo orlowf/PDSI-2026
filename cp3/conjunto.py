@@ -45,7 +45,7 @@ def _origem(anotacoes, jogo, numero):
 def carregar_tempo(jogo, numero, raiz=RAIZ_ATRIBUTOS, anotacoes=None):
     anotacoes = anotacoes if anotacoes is not None else anotacoes_soccernet()
     destino = Path(raiz) / jogo / str(numero)
-    logmel = np.load(destino / "logmel.npy")
+    logmel = np.load(destino / "logmel.npy", mmap_mode="r")  # 393 jogos não cabem na RAM
     with np.load(destino / "quadros.npz") as arquivo:
         quadros = {k: arquivo[k] for k in CHAVES_QUADRO}
     eventos = eventos_alvo(anotacoes, _origem(anotacoes, jogo, numero), jogo, numero)

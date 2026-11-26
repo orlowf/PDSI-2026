@@ -53,3 +53,10 @@ def test_carregar_tempo_com_eventos(tmp_path):
     assert t.logmel.shape == (500, 64)
     assert set(t.quadros) == set(CHAVES_QUADRO)
     assert t.eventos == [(5.0, "Goal")]
+
+
+def test_carregar_tempo_usa_memmap(tmp_path):
+    gravar(tmp_path, "liga/2016/A", 1, n=500)
+    anotacoes = {"valid": {"liga/2016/A/1_224p.mkv": []}}
+    t = carregar_tempo("liga/2016/A", 1, tmp_path, anotacoes)
+    assert isinstance(t.logmel, np.memmap)
