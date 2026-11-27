@@ -1,0 +1,46 @@
+metodo,ponto,classe,acertos,anotados,revocacao
+classico,f1,gol,305,343,0.8892128279883382
+classico,f1,finalizacao no alvo,411,1092,0.37637362637362637
+classico,f1,finalizacao para fora,412,1003,0.4107676969092722
+classico,f1,penalti,8,31,0.25806451612903225
+classico,f1,expulsao,4,10,0.4
+classico,mesmo_k,gol,319,343,0.9300291545189504
+classico,mesmo_k,finalizacao no alvo,667,1092,0.6108058608058609
+classico,mesmo_k,finalizacao para fora,688,1003,0.6859421734795613
+classico,mesmo_k,penalti,12,31,0.3870967741935484
+classico,mesmo_k,expulsao,6,10,0.6
+tcn,f1,gol,312,343,0.9096209912536443
+tcn,f1,finalizacao no alvo,440,1092,0.40293040293040294
+tcn,f1,finalizacao para fora,432,1003,0.4307078763708873
+tcn,f1,penalti,9,31,0.2903225806451613
+tcn,f1,expulsao,7,10,0.7
+tcn,mesmo_k,gol,318,343,0.9271137026239067
+tcn,mesmo_k,finalizacao no alvo,565,1092,0.5173992673992674
+tcn,mesmo_k,finalizacao para fora,636,1003,0.634097706879362
+tcn,mesmo_k,penalti,9,31,0.2903225806451613
+tcn,mesmo_k,expulsao,8,10,0.8
+cnn2d,f1,gol,276,343,0.8046647230320699
+cnn2d,f1,finalizacao no alvo,379,1092,0.34706959706959706
+cnn2d,f1,finalizacao para fora,345,1003,0.3439680957128614
+cnn2d,f1,penalti,11,31,0.3548387096774194
+cnn2d,f1,expulsao,7,10,0.7
+cnn2d,mesmo_k,gol,286,343,0.8338192419825073
+cnn2d,mesmo_k,finalizacao no alvo,526,1092,0.4816849816849817
+cnn2d,mesmo_k,finalizacao para fora,538,1003,0.5363908275174477
+cnn2d,mesmo_k,penalti,11,31,0.3548387096774194
+cnn2d,mesmo_k,expulsao,7,10,0.7
+vol+bonus tom,cp2,gol,266,343,0.7755102040816326
+vol+bonus tom,cp2,finalizacao no alvo,313,1092,0.2866300366300366
+vol+bonus tom,cp2,finalizacao para fora,244,1003,0.2432701894317049
+vol+bonus tom,cp2,penalti,7,31,0.22580645161290322
+vol+bonus tom,cp2,expulsao,4,10,0.4
+wav2vec 4 s,cp2,gol,254,343,0.7405247813411079
+wav2vec 4 s,cp2,finalizacao no alvo,469,1092,0.42948717948717946
+wav2vec 4 s,cp2,finalizacao para fora,363,1003,0.36191425722831505
+wav2vec 4 s,cp2,penalti,10,31,0.3225806451612903
+wav2vec 4 s,cp2,expulsao,7,10,0.7
+fusao,cp2,gol,318,343,0.9271137026239067
+fusao,cp2,finalizacao no alvo,611,1092,0.5595238095238095
+fusao,cp2,finalizacao para fora,473,1003,0.4715852442671984
+fusao,cp2,penalti,14,31,0.45161290322580644
+fusao,cp2,expulsao,8,10,0.8
