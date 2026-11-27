@@ -1,0 +1,46 @@
+lote,metodo,selecao,alvo,classe,acertos,anotados,revocacao
+ajuste,vol+bonus tom,todos,lances,gol,266,344,0.7732558139534884
+ajuste,vol+bonus tom,todos,lances,finalizacao no alvo,306,1158,0.26424870466321243
+ajuste,vol+bonus tom,todos,lances,finalizacao para fora,257,1046,0.245697896749522
+ajuste,vol+bonus tom,todos,lances,penalti,5,33,0.15151515151515152
+ajuste,vol+bonus tom,todos,lances,expulsao,10,22,0.45454545454545453
+ajuste,wav2vec 4 s,todos,lances,gol,245,344,0.7122093023255814
+ajuste,wav2vec 4 s,todos,lances,finalizacao no alvo,507,1158,0.4378238341968912
+ajuste,wav2vec 4 s,todos,lances,finalizacao para fora,337,1046,0.32217973231357555
+ajuste,wav2vec 4 s,todos,lances,penalti,15,33,0.45454545454545453
+ajuste,wav2vec 4 s,todos,lances,expulsao,12,22,0.5454545454545454
+ajuste,fusao,todos,lances,gol,307,344,0.8924418604651163
+ajuste,fusao,todos,lances,finalizacao no alvo,623,1158,0.5379965457685665
+ajuste,fusao,todos,lances,finalizacao para fora,449,1046,0.4292543021032505
+ajuste,fusao,todos,lances,penalti,16,33,0.48484848484848486
+ajuste,fusao,todos,lances,expulsao,17,22,0.7727272727272727
+avaliacao,vol+bonus tom,todos,lances,gol,961,1283,0.7490257209664848
+avaliacao,vol+bonus tom,todos,lances,finalizacao no alvo,1228,4485,0.2738015607580825
+avaliacao,vol+bonus tom,todos,lances,finalizacao para fora,962,4137,0.2325356538554508
+avaliacao,vol+bonus tom,todos,lances,penalti,39,138,0.2826086956521739
+avaliacao,vol+bonus tom,todos,lances,expulsao,24,77,0.3116883116883117
+avaliacao,wav2vec 4 s,todos,lances,gol,915,1283,0.7131722525331254
+avaliacao,wav2vec 4 s,todos,lances,finalizacao no alvo,1874,4485,0.41783723522853955
+avaliacao,wav2vec 4 s,todos,lances,finalizacao para fora,1408,4137,0.3403432438965434
+avaliacao,wav2vec 4 s,todos,lances,penalti,57,138,0.41304347826086957
+avaliacao,wav2vec 4 s,todos,lances,expulsao,39,77,0.5064935064935064
+avaliacao,fusao,todos,lances,gol,1144,1283,0.8916601714731099
+avaliacao,fusao,todos,lances,finalizacao no alvo,2442,4485,0.5444816053511705
+avaliacao,fusao,todos,lances,finalizacao para fora,1822,4137,0.4404157602127145
+avaliacao,fusao,todos,lances,penalti,71,138,0.5144927536231884
+avaliacao,fusao,todos,lances,expulsao,51,77,0.6623376623376623
+geral,vol+bonus tom,todos,lances,gol,1227,1627,0.7541487400122926
+geral,vol+bonus tom,todos,lances,finalizacao no alvo,1534,5643,0.2718412192096403
+geral,vol+bonus tom,todos,lances,finalizacao para fora,1219,5183,0.23519197376037043
+geral,vol+bonus tom,todos,lances,penalti,44,171,0.2573099415204678
+geral,vol+bonus tom,todos,lances,expulsao,34,99,0.3434343434343434
+geral,wav2vec 4 s,todos,lances,gol,1160,1627,0.7129686539643516
+geral,wav2vec 4 s,todos,lances,finalizacao no alvo,2381,5643,0.42193868509657984
+geral,wav2vec 4 s,todos,lances,finalizacao para fora,1745,5183,0.3366775998456492
+geral,wav2vec 4 s,todos,lances,penalti,72,171,0.42105263157894735
+geral,wav2vec 4 s,todos,lances,expulsao,51,99,0.5151515151515151
+geral,fusao,todos,lances,gol,1451,1627,0.8918254456054088
+geral,fusao,todos,lances,finalizacao no alvo,3065,5643,0.543150806308701
+geral,fusao,todos,lances,finalizacao para fora,2271,5183,0.43816322593092805
+geral,fusao,todos,lances,penalti,87,171,0.5087719298245614
+geral,fusao,todos,lances,expulsao,68,99,0.6868686868686869

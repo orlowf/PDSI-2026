@@ -1,0 +1,82 @@
+{
+  "estado": "completo",
+  "motivo": "",
+  "revisao": "56a8be6be6788ed65cce25f68780d55ff4544aa2",
+  "semente": "pdsi-cp2-v2",
+  "reparo_dts": "aresample=16000:async=1:first_pts=0",
+  "ajuste_completo": true,
+  "cotas": [
+    {
+      "divisao": "train",
+      "competicao": "england_epl",
+      "obtidos": 2,
+      "previstos": 2
+    },
+    {
+      "divisao": "train",
+      "competicao": "europe_uefa-champions-league",
+      "obtidos": 2,
+      "previstos": 2
+    },
+    {
+      "divisao": "train",
+      "competicao": "france_ligue-1",
+      "obtidos": 2,
+      "previstos": 2
+    },
+    {
+      "divisao": "train",
+      "competicao": "germany_bundesliga",
+      "obtidos": 2,
+      "previstos": 2
+    },
+    {
+      "divisao": "train",
+      "competicao": "italy_serie-a",
+      "obtidos": 2,
+      "previstos": 2
+    },
+    {
+      "divisao": "train",
+      "competicao": "spain_laliga",
+      "obtidos": 2,
+      "previstos": 2
+    },
+    {
+      "divisao": "valid",
+      "competicao": "england_epl",
+      "obtidos": 5,
+      "previstos": 5
+    },
+    {
+      "divisao": "valid",
+      "competicao": "europe_uefa-champions-league",
+      "obtidos": 5,
+      "previstos": 5
+    },
+    {
+      "divisao": "valid",
+      "competicao": "france_ligue-1",
+      "obtidos": 5,
+      "previstos": 5
+    },
+    {
+      "divisao": "valid",
+      "competicao": "germany_bundesliga",
+      "obtidos": 5,
+      "previstos": 5
+    },
+    {
+      "divisao": "valid",
+      "competicao": "italy_serie-a",
+      "obtidos": 5,
+      "previstos": 5
+    },
+    {
+      "divisao": "valid",
+      "competicao": "spain_laliga",
+      "obtidos": 5,
+      "previstos": 5
+    }
+  ]
+}

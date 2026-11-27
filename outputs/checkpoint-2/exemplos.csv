@@ -1,0 +1,4 @@
+caso,jogo,tempo,anotacao,anotacao_s,wav2vec_s,volume_tom_s,inicio_trecho_s,fim_trecho_s,wav_local
+acerto-em-comum,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,Goal,863.996,864.0,865.25,855.996,875.25,data/checkpoint-2-exemplos/1-acerto-em-comum.wav
+wav2vec-associou,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,Shots on target,1251.978,1252.0,,1243.978,1262.0,data/checkpoint-2-exemplos/2-wav2vec-associou.wav
+alerta-sem-lance-alvo,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,Offside,942.034,942.0,,934.0,952.034,data/checkpoint-2-exemplos/3-alerta-sem-lance-alvo.wav

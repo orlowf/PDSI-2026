@@ -1,0 +1,418 @@
+lote,jogo,tempo,metodo,pico_s,intensidade,evento_s,rotulo
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,so volume,1052.5,1.4879339933395386,1051.574,Goal
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,so volume,1179.0,0.9642394781112671,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,so volume,1926.25,0.8419822454452515,1923.964,Goal
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,so volume,2198.75,0.6375495791435242,2194.131,Shots off target
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,so volume,2587.0,0.5367181301116943,2585.675,Goal
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,so volume,1254.25,0.467641144990921,1252.289,Goal
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,so volume,2228.25,0.350339412689209,2227.794,Shots off target
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,so volume,1061.75,0.2995753288269043,1050.27,Shots on target
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,so volume,1186.25,0.15776517987251282,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,so volume,1073.25,0.14483574032783508,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,so volume,1068.5,0.06909257173538208,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,vol+bonus tom,1052.5,1.4337570369243622,1051.574,Goal
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,vol+bonus tom,1254.25,1.3899117045895875,1252.289,Goal
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,vol+bonus tom,1179.0,0.922703742980958,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,vol+bonus tom,1926.25,0.8058641850948344,1923.964,Goal
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,vol+bonus tom,2198.75,0.605043351650239,2194.131,Shots off target
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,vol+bonus tom,2587.0,0.5132413804531106,2585.675,Goal
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,vol+bonus tom,2228.25,0.3340862691402441,2227.794,Shots off target
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,vol+bonus tom,1061.75,0.2769128680229187,1050.27,Shots on target
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,vol+bonus tom,1186.25,0.13248255848884688,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,vol+bonus tom,1073.25,0.1256687492132187,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,vol+bonus tom,1068.5,0.0546453595161438,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,wav2vec 2.0,908.0,6.881118529483958,908.129,Goal
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,wav2vec 2.0,2588.0,6.2224993793835806,2585.675,Goal
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,wav2vec 2.0,1064.0,3.9343756755981714,1051.574,Goal
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,wav2vec 2.0,1258.0,3.193340038290847,1252.289,Goal
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,wav2vec 2.0,1928.0,1.8508526487821744,1923.964,Goal
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,wav2vec 2.0,2228.0,0.9772431003135429,2227.794,Shots off target
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,wav2vec 2.0,854.0,0.8514218059177256,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,wav2vec 2.0,1252.0,0.8462660646558966,1251.978,Shots on target
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,wav2vec 2.0,858.0,0.8194384415586313,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,wav2vec 2.0,1170.0,0.45714946108456544,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,wav2vec 2.0,1076.0,0.4105709641384152,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,wav2vec 2.0,976.0,0.16397435291192686,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,wav2vec 2.0,100.0,0.13781734874477092,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,1,wav2vec 2.0,2196.0,0.05208129783377924,2194.131,Shots off target
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,so volume,1518.25,1.9573570489883423,1514.932,Goal
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,so volume,827.25,0.8673914670944214,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,so volume,877.0,0.6947757005691528,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,so volume,822.0,0.674179196357727,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,so volume,1456.75,0.5864530801773071,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,so volume,289.0,0.49987471103668213,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,so volume,1580.0,0.3552554249763489,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,so volume,866.75,0.0727154016494751,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,so volume,2778.0,0.04509192705154419,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,vol+bonus tom,1518.25,1.885818538069725,1514.932,Goal
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,vol+bonus tom,1936.0,0.8876167238008263,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,vol+bonus tom,827.25,0.8070303887128831,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,vol+bonus tom,822.0,0.647351974248886,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,vol+bonus tom,877.0,0.6463510006666184,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,vol+bonus tom,1456.75,0.5587594449520112,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,vol+bonus tom,289.0,0.45963401198387166,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,vol+bonus tom,1580.0,0.33000163435935986,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,wav2vec 2.0,826.0,3.85521713540456,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,wav2vec 2.0,1456.0,2.1521467845156916,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,wav2vec 2.0,866.0,2.1369167982937727,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,wav2vec 2.0,820.0,2.074995594388282,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,wav2vec 2.0,208.0,1.8271003313748517,207.927,Shots off target
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,wav2vec 2.0,1522.0,1.367441400348321,1514.932,Goal
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,wav2vec 2.0,1514.0,1.3542858241280475,1513.014,Shots on target
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,wav2vec 2.0,1218.0,1.0886234420551428,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,wav2vec 2.0,718.0,0.7603144007831695,716.564,Shots on target
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,wav2vec 2.0,478.0,0.46407048348749935,478.124,Shots on target
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,wav2vec 2.0,1654.0,0.43881222156763844,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,wav2vec 2.0,1968.0,0.36128065758359273,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,wav2vec 2.0,1188.0,0.20996702242566379,,
+avaliacao,england_epl/2016-2017/2016-10-29 - 19-30 Crystal Palace 2 - 4 Liverpool,2,wav2vec 2.0,1180.0,0.12628934890932886,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,so volume,865.25,0.8747164607048035,863.996,Goal
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,so volume,665.5,0.5633808970451355,664.294,Shots off target
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,so volume,2403.25,0.44932234287261963,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,so volume,291.5,0.3855202794075012,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,so volume,869.0,0.36170053482055664,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,so volume,1564.75,0.2721502184867859,1564.17,Goal
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,so volume,1978.25,0.2589326500892639,1978.366,Shots off target
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,so volume,1826.25,0.21450217068195343,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,so volume,1768.5,0.2063894420862198,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,so volume,2278.0,0.20167963206768036,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,so volume,1607.25,0.09793895483016968,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,so volume,1178.25,0.065885990858078,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,vol+bonus tom,1603.25,0.92740342993461,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,vol+bonus tom,865.25,0.8440911173820496,863.996,Goal
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,vol+bonus tom,665.5,0.5358429700136185,664.294,Shots off target
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,vol+bonus tom,2403.25,0.4272873252630234,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,vol+bonus tom,291.5,0.3644653707742691,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,vol+bonus tom,869.0,0.33490338921546936,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,vol+bonus tom,1564.75,0.2434389442205429,1564.17,Goal
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,vol+bonus tom,1978.25,0.24170589447021484,1978.366,Shots off target
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,vol+bonus tom,1826.25,0.19727541506290436,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,vol+bonus tom,1768.5,0.18533451855182648,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,vol+bonus tom,2278.0,0.173506498336792,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,vol+bonus tom,1178.25,0.04446972906589508,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,wav2vec 2.0,1588.0,2.3075924842365207,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,wav2vec 2.0,682.0,2.109765354873831,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,wav2vec 2.0,864.0,1.8337049614929635,863.996,Goal
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,wav2vec 2.0,886.0,1.5221655950773583,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,wav2vec 2.0,1020.0,1.0732138770620905,1019.623,Shots off target
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,wav2vec 2.0,1980.0,1.0700194957359317,1978.366,Shots off target
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,wav2vec 2.0,1574.0,0.8280538531424231,1564.17,Goal
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,wav2vec 2.0,906.0,0.6422849191577216,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,wav2vec 2.0,2488.0,0.6048343097446613,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,wav2vec 2.0,1540.0,0.5381491119508777,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,wav2vec 2.0,1536.0,0.39606068109999804,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,wav2vec 2.0,666.0,0.39178464821276915,664.294,Shots off target
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,wav2vec 2.0,670.0,0.17432196617129936,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,wav2vec 2.0,896.0,0.0574489667573701,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,1,wav2vec 2.0,918.0,0.0015441538473766059,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,so volume,1480.75,0.8447889685630798,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,so volume,1139.0,0.5556200742721558,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,so volume,1275.75,0.5254226326942444,1274.802,Goal
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,so volume,2631.5,0.4314606189727783,2629.234,Shots on target
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,so volume,2182.0,0.3592607378959656,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,so volume,1988.25,0.257600337266922,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,so volume,1487.75,0.1650664210319519,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,so volume,1108.5,0.0939103364944458,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,vol+bonus tom,1480.75,0.8436120599508286,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,vol+bonus tom,1139.0,0.5547893643379211,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,vol+bonus tom,1275.75,0.5243841707706451,1274.802,Goal
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,vol+bonus tom,2631.5,0.43069906532764435,2629.234,Shots on target
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,vol+bonus tom,2182.0,0.3584992289543152,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,vol+bonus tom,1988.25,0.2568387985229492,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,vol+bonus tom,1487.75,0.16444334387779236,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,wav2vec 2.0,1324.0,3.083515109149179,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,wav2vec 2.0,702.0,1.3272465923226244,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,wav2vec 2.0,424.0,1.0206677712719312,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,wav2vec 2.0,1280.0,0.8931153030393775,1274.802,Goal
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,wav2vec 2.0,1586.0,0.724733804371076,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,wav2vec 2.0,688.0,0.7092729204081492,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,wav2vec 2.0,1304.0,0.6409080303155958,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,wav2vec 2.0,776.0,0.435390870123892,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,wav2vec 2.0,1468.0,0.33014011995482484,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,wav2vec 2.0,1756.0,0.3240592638011348,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,wav2vec 2.0,2132.0,0.31260486792528397,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,wav2vec 2.0,1310.0,0.2661832258635677,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,wav2vec 2.0,762.0,0.2523590617974092,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,wav2vec 2.0,682.0,0.19107551404371392,,
+avaliacao,france_ligue-1/2016-2017/2016-09-20 - 22-00 Paris SG 3 - 0 Dijon,2,wav2vec 2.0,236.0,0.11014715591067503,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,so volume,906.0,0.9207347631454468,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,so volume,2250.0,0.7828186750411987,2249.777,Shots off target
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,so volume,252.25,0.64690762758255,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,so volume,2383.0,0.5698169469833374,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,so volume,695.0,0.5003753900527954,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,so volume,2508.5,0.45340925455093384,2510.986,Shots off target
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,so volume,258.25,0.36952781677246094,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,so volume,1560.0,0.3113122582435608,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,so volume,836.0,0.29162830114364624,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,so volume,1119.25,0.23457397520542145,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,so volume,1432.5,0.2053741067647934,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,so volume,1689.75,0.1971685290336609,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,vol+bonus tom,906.0,0.9178163111209869,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,vol+bonus tom,2250.0,0.7805256992578506,2249.777,Shots off target
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,vol+bonus tom,252.25,0.7510071758886194,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,vol+bonus tom,2383.0,0.5675239861011505,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,vol+bonus tom,695.0,0.49829086661338806,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,vol+bonus tom,2508.5,0.45153319835662875,2510.986,Shots off target
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,vol+bonus tom,258.25,0.36765173077583313,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,vol+bonus tom,1560.0,0.3094361871480942,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,vol+bonus tom,836.0,0.28975221514701843,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,vol+bonus tom,1119.25,0.2324894517660141,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,vol+bonus tom,1432.5,0.20349803566932678,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,vol+bonus tom,1689.75,0.195500910282135,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,wav2vec 2.0,252.0,7.157584462530088,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,wav2vec 2.0,2408.0,6.429181088809129,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,wav2vec 2.0,2250.0,2.9514409413312754,2249.777,Shots off target
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,wav2vec 2.0,1128.0,2.2594665822173985,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,wav2vec 2.0,350.0,2.1005260148434184,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,wav2vec 2.0,266.0,1.2377055001078254,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,wav2vec 2.0,1286.0,0.6351993175326127,1286.208,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,wav2vec 2.0,1306.0,0.4844774892659016,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,wav2vec 2.0,1332.0,0.26985154251921806,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,wav2vec 2.0,2416.0,0.24019829913318524,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,wav2vec 2.0,280.0,0.12842099574886667,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,1,wav2vec 2.0,886.0,0.03133343721933768,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,so volume,1489.75,2.306741237640381,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,so volume,1989.0,0.8481158018112183,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,so volume,5.5,0.6547642946243286,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,so volume,838.0,0.628542423248291,838.963,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,so volume,2712.5,0.5092555284500122,2711.365,Goal
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,so volume,447.5,0.37696799635887146,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,so volume,274.5,0.13659478724002838,277.001,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,so volume,1417.0,0.11517009139060974,1409.346,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,vol+bonus tom,1489.75,2.273911347985269,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,vol+bonus tom,1989.0,0.8353469312191015,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,vol+bonus tom,5.5,0.6428260594606405,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,vol+bonus tom,838.0,0.6185939013957982,838.963,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,vol+bonus tom,2712.5,0.49930705130100295,2711.365,Goal
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,vol+bonus tom,447.5,0.36602469980716756,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,vol+bonus tom,274.5,0.12664629518985787,277.001,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,vol+bonus tom,1417.0,0.10721129775047333,1409.346,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,wav2vec 2.0,290.0,2.787423732846512,281.715,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,wav2vec 2.0,278.0,1.6529791712610677,277.001,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,wav2vec 2.0,2742.0,1.424974419372953,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,wav2vec 2.0,450.0,1.0647863690316282,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,wav2vec 2.0,836.0,1.0283452960682702,836.665,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,wav2vec 2.0,2714.0,0.9108052505612267,2711.365,Goal
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,wav2vec 2.0,1500.0,0.7520011356625993,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,wav2vec 2.0,200.0,0.6952797130989516,200.327,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,wav2vec 2.0,2746.0,0.43989786770323214,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,wav2vec 2.0,1820.0,0.33441124787099685,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,wav2vec 2.0,1712.0,0.14107615311116461,1710.445,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,wav2vec 2.0,1620.0,0.11939246671601644,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,wav2vec 2.0,1812.0,0.1173134422388884,1801.824,Goal
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,wav2vec 2.0,1826.0,0.0923462396959156,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,wav2vec 2.0,312.0,0.08646370659146285,,
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,wav2vec 2.0,1550.0,0.06587673160762364,1548.118,Shots off target
+avaliacao,italy_serie-a/2016-2017/2017-03-12 - 22-45 Palermo 0 - 3 AS Roma,2,wav2vec 2.0,1850.0,0.012426231919385522,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,so volume,1847.0,1.2067224979400635,1848.541,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,so volume,1503.75,0.8493509292602539,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,so volume,2114.25,0.7348224520683289,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,so volume,585.0,0.664217472076416,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,so volume,1693.75,0.6261846423149109,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,so volume,657.5,0.578957200050354,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,so volume,26.0,0.5069257020950317,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,vol+bonus tom,1847.0,1.206722412705421,1848.541,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,vol+bonus tom,1503.75,0.8493507862091055,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,vol+bonus tom,2114.25,0.7348223733901971,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,vol+bonus tom,585.0,0.6642174184322348,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,vol+bonus tom,1693.75,0.6261845505237571,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,vol+bonus tom,657.5,0.578957132697105,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,vol+bonus tom,26.0,0.5069256812334055,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,wav2vec 2.0,1846.0,3.798406131356372,1848.541,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,wav2vec 2.0,360.0,3.5561877080798494,360.803,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,wav2vec 2.0,374.0,2.0314312417316707,361.58,Goal
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,wav2vec 2.0,2380.0,1.9857545643693593,2378.427,Shots off target
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,wav2vec 2.0,2264.0,1.8280317340156245,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,wav2vec 2.0,896.0,1.4330445730397292,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,wav2vec 2.0,1184.0,1.3333452368359326,1183.802,Shots off target
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,wav2vec 2.0,260.0,0.6522613592289934,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,wav2vec 2.0,1714.0,0.5216537206635339,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,wav2vec 2.0,310.0,0.2104422298984412,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,wav2vec 2.0,890.0,0.14672480157194734,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,1,wav2vec 2.0,1178.0,0.07967808639559681,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,so volume,878.25,3.519181728363037,877.25,Goal
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,so volume,1126.25,1.4087655544281006,1125.645,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,so volume,649.0,1.2921438217163086,645.942,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,so volume,865.75,1.035596251487732,876.616,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,so volume,1908.75,0.5577965974807739,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,so volume,472.75,0.493576318025589,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,so volume,2619.75,0.43718960881233215,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,so volume,2341.5,0.2434285581111908,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,vol+bonus tom,878.25,3.463074713945389,877.25,Goal
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,vol+bonus tom,865.75,1.533398294345552,876.616,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,vol+bonus tom,1126.25,1.4080253469637651,1125.645,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,vol+bonus tom,649.0,1.260082870721817,645.942,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,vol+bonus tom,1908.75,0.5257356464862823,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,vol+bonus tom,472.75,0.461515337228775,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,vol+bonus tom,2619.75,0.4158156216144566,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,wav2vec 2.0,882.0,7.562683939876424,877.25,Goal
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,wav2vec 2.0,650.0,3.1788407383098987,645.942,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,wav2vec 2.0,298.0,2.625754010084603,302.134,Shots off target
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,wav2vec 2.0,2288.0,1.7738454646989634,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,wav2vec 2.0,892.0,1.721062975401507,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,wav2vec 2.0,1132.0,1.2481518363040767,1125.645,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,wav2vec 2.0,1124.0,0.9827852717507097,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,wav2vec 2.0,1798.0,0.9154671476280747,1797.798,Shots on target
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,wav2vec 2.0,2678.0,0.8935777349401777,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,wav2vec 2.0,946.0,0.793231387543468,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,wav2vec 2.0,664.0,0.7836287733886431,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,wav2vec 2.0,304.0,0.16004393896945412,,
+avaliacao,italy_serie-a/2016-2017/2017-04-02 - 21-45 Napoli 1 - 1 Juventus,2,wav2vec 2.0,288.0,0.1390307682893317,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,so volume,330.25,1.1742085218429565,327.765,Goal
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,so volume,2401.5,0.5621001124382019,2400.301,Shots on target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,so volume,382.75,0.4766186475753784,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,so volume,1023.75,0.39654016494750977,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,so volume,1349.75,0.35302770137786865,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,so volume,43.5,0.28459247946739197,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,so volume,2631.75,0.22211137413978577,2630.306,Shots on target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,so volume,750.75,0.2179785817861557,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,so volume,932.75,0.14548815786838531,930.673,Shots on target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,so volume,2224.0,0.1391841471195221,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,so volume,1531.5,0.11619842052459717,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,vol+bonus tom,2453.75,3.9857042072066613,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,vol+bonus tom,330.25,3.964635665133465,327.765,Goal
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,vol+bonus tom,1595.75,3.8770600726227666,1593.92,Penalty
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,vol+bonus tom,2402.75,3.206423023789504,2400.301,Shots on target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,vol+bonus tom,1604.75,3.13856142040583,1593.92,Shots on target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,vol+bonus tom,2224.75,1.5314141434917767,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,vol+bonus tom,1153.75,0.5942308144015327,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,vol+bonus tom,180.25,0.5433636022128147,172.671,Shots off target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,vol+bonus tom,1147.25,0.3367572603576912,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,2630.0,2.676054288332371,2630.306,Shots on target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,1024.0,1.4898989225998949,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,2696.0,1.3309188014873081,2681.978,Shots off target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,1300.0,0.9947703765719895,1296.793,Shots on target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,214.0,0.601049676141808,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,50.0,0.5898772945784421,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,748.0,0.5848522798327251,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,716.0,0.4583362940017701,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,2456.0,0.41049705294535066,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,510.0,0.27267956764897017,523.125,Shots on target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,82.0,0.18155992115480535,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,2584.0,0.17102356167686183,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,2452.0,0.16226682789294067,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,102.0,0.1478839402783052,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,650.0,0.1387313860405297,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,2580.0,0.10727318505028549,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,2048.0,0.049462231918435684,2047.942,Shots on target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,1960.0,0.046477703362639566,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,2448.0,0.036368406637474315,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,44.0,0.012369410349801768,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,1,wav2vec 2.0,1594.0,0.004302716501475512,1593.92,Penalty
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,so volume,1099.5,0.8834260106086731,1098.48,Goal
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,so volume,944.25,0.5465685129165649,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,so volume,792.0,0.5108752250671387,789.627,Shots off target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,so volume,2093.25,0.43043917417526245,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,so volume,838.25,0.4022160470485687,835.843,Shots off target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,so volume,745.25,0.3492277264595032,744.6,Penalty
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,so volume,489.0,0.33368057012557983,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,so volume,2431.25,0.30282700061798096,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,so volume,1550.75,0.23978643119335175,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,so volume,947.75,0.1787293255329132,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,vol+bonus tom,1099.5,6.403469464038368,1098.48,Goal
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,vol+bonus tom,1234.5,2.89996649998151,1233.68,Goal
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,vol+bonus tom,792.0,1.9786694804520353,789.627,Shots off target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,vol+bonus tom,2349.75,1.685068221125459,2346.542,Shots on target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,vol+bonus tom,880.5,0.8018132348190095,872.421,Shots off target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,vol+bonus tom,347.75,0.6866969725293807,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,vol+bonus tom,513.5,0.4608009793845199,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,vol+bonus tom,1245.5,0.39706439695950374,1233.311,Shots on target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,vol+bonus tom,680.0,0.16148137872537438,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,wav2vec 2.0,760.0,3.9536091246407477,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,wav2vec 2.0,746.0,2.0127641880550247,744.6,Penalty
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,wav2vec 2.0,658.0,1.7516345833422307,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,wav2vec 2.0,488.0,1.4671974554159202,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,wav2vec 2.0,942.0,1.324236440458022,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,wav2vec 2.0,568.0,0.5867811170137145,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,wav2vec 2.0,482.0,0.4708541364176373,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,wav2vec 2.0,1008.0,0.41530554112403184,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,wav2vec 2.0,948.0,0.4074562308308769,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,wav2vec 2.0,836.0,0.37115467327295093,835.843,Shots off target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,wav2vec 2.0,372.0,0.32789090970921286,378.855,Shots off target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,wav2vec 2.0,1238.0,0.2725009834751315,1233.68,Goal
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,wav2vec 2.0,872.0,0.2619398747101003,872.421,Shots off target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,wav2vec 2.0,842.0,0.16406750982660778,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,wav2vec 2.0,2346.0,0.13292750485655347,2346.542,Shots on target
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,wav2vec 2.0,954.0,0.1324851547512118,,
+avaliacao,spain_laliga/2015-2016/2016-03-20 - 22-30 Real Madrid 4 - 0 Sevilla,2,wav2vec 2.0,352.0,0.08520417908950728,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,so volume,303.75,1.3786967992782593,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,so volume,700.75,1.337807536125183,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,so volume,1192.0,1.1490248441696167,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,so volume,317.25,0.7907339334487915,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,so volume,2171.5,0.75927734375,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,so volume,724.25,0.6318719387054443,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,so volume,848.25,0.5280134677886963,847.058,Shots off target
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,so volume,2010.0,0.2431587278842926,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,so volume,1580.5,0.21793502569198608,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,so volume,466.0,0.21251341700553894,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,so volume,1265.0,0.16857373714447021,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,so volume,1246.5,0.08307710289955139,1242.855,Shots on target
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,303.75,1.3786967992782593,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,700.75,1.3378076255321503,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,1192.0,1.1490248441696167,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,317.25,0.7907339632511139,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,2171.5,0.7592773139476776,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,724.25,0.6318718791007996,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,848.25,0.5280134379863739,847.058,Shots off target
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,2010.0,0.2431587278842926,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,1580.5,0.21793502569198608,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,466.0,0.21251341700553894,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,1265.0,0.16857373714447021,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,vol+bonus tom,1246.5,0.08307710289955139,1242.855,Shots on target
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,316.0,1.6263459307661021,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,876.0,1.3129798376219943,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,2608.0,1.2683398011696534,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,734.0,1.177302441406301,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,1138.0,1.1220419255826801,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,918.0,0.7837950215286744,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,356.0,0.750474195057822,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,1240.0,0.7452207014517507,1239.96,Shots off target
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,1694.0,0.6753930667601606,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,1054.0,0.6685545625802547,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,964.0,0.6131521692803275,960.501,Shots off target
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,1806.0,0.6088962869770249,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,1050.0,0.5866944017620201,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,700.0,0.5057736083258542,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,166.0,0.3629451747841088,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,2140.0,0.35988633764694766,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,2256.0,0.30092910080255564,2254.682,Shots off target
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,1580.0,0.29558843775361643,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,1130.0,0.2169026688325797,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,1318.0,0.11148780215557696,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,2174.0,0.0817102293765033,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,1,wav2vec 2.0,2262.0,0.06304737443238295,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,so volume,2829.75,1.4866688251495361,2826.0,Goal
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,so volume,2607.25,0.6177029609680176,2592.332,Shots on target
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,so volume,2410.5,0.32192862033843994,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,so volume,2381.25,0.3016803562641144,2384.256,Shots off target
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,so volume,2386.0,0.23210939764976501,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,so volume,2686.5,0.20653268694877625,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,so volume,2849.75,0.18389609456062317,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,so volume,923.25,0.14940086007118225,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,so volume,232.5,0.09137877821922302,229.87,Shots on target
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,vol+bonus tom,2829.75,1.4866687023639693,2826.0,Goal
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,vol+bonus tom,2607.25,0.6177029109001164,2592.332,Shots on target
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,vol+bonus tom,2410.5,0.3219286096096041,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,vol+bonus tom,2381.25,0.30168033838272135,2384.256,Shots off target
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,vol+bonus tom,2386.0,0.2321093833446506,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,vol+bonus tom,2686.5,0.20653267145156895,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,vol+bonus tom,2849.75,0.18389608025550874,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,vol+bonus tom,923.25,0.1494008505344393,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,vol+bonus tom,232.5,0.0913787639141086,229.87,Shots on target
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,2836.0,4.776254420860135,2826.0,Goal
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,238.0,1.7092864411323765,229.87,Shots on target
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,1768.0,1.4910706394924929,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,2854.0,1.2028043649537912,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,2874.0,1.1281877289868452,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,2848.0,0.998817108330988,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,2862.0,0.8347026607593873,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,2690.0,0.7663010561298695,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,2882.0,0.7631133447314964,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,1756.0,0.5710267176643016,1749.043,Shots off target
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,678.0,0.5501114031323779,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,620.0,0.536857612840421,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,246.0,0.34123128493516797,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,826.0,0.2186373171966931,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,1676.0,0.04788160463058588,1669.577,Shots off target
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,1760.0,0.042015113969192885,,
+avaliacao,england_epl/2016-2017/2016-10-02 - 18-30 Burnley 0 - 1 Arsenal,2,wav2vec 2.0,1652.0,0.012552134538101445,1646.768,Shots off target

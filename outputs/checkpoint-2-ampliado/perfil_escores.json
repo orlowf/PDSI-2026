@@ -1,0 +1,11 @@
+{
+  "modelo": "audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+  "revisao": "6eba34a2485ea31cb03600241787c3a5edab8626",
+  "torch": "2.12.1",
+  "precisao": "float16",
+  "dispositivo": "mps",
+  "lotes_por_janela": {
+    "4": 24,
+    "2": 24
+  }
+}

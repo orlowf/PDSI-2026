@@ -1,0 +1,199 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<title>Ouvindo o gol — Checkpoint 1</title>
+<style>
+  /* Checkpoint 1 (13/11): mesmo visual do "Ouvindo o gol — Motivação.pdf". 1456x819, navy / lime / verde, Inter. */
+  :root {
+    --navy: #0a0f1e;
+    --navy-card: #151b2e;
+    --lime: #c8f135;
+    --cyan: #22d3ee;
+    --green: #1f7a3a;
+    --paper: #edf0f5;
+    --ink: #0a0f1e;
+    --ink-2: #4a5568;
+    --slate: #6b7590;
+    --muted-dark: #9aa3b5;
+  }
+  @page { size: 1440px 810px; margin: 0; }
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  html, body { background: var(--navy); }
+  body { font-family: "Inter", system-ui, sans-serif; -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+
+  .slide {
+    width: 1440px; height: 810px; position: relative; overflow: hidden;
+    padding: 84px 94px 0; page-break-after: always; break-after: page;
+  }
+  .slide:last-child { page-break-after: auto; break-after: auto; }
+  .dark  { background: var(--navy); color: #eef1f7; }
+  .light { background: var(--paper); color: var(--ink); }
+  .lime  { background: var(--lime); color: var(--ink); }
+
+  .eyebrow { font-size: 18px; font-weight: 800; letter-spacing: .2em; text-transform: uppercase; }
+  .dark .eyebrow  { color: var(--lime); }
+  .light .eyebrow { color: var(--green); }
+  .lime .eyebrow  { color: var(--ink); }
+  h1 { font-size: 54px; font-weight: 800; letter-spacing: -.02em; line-height: 1.08; margin-top: 14px; }
+  .pagenum { position: absolute; right: 97px; bottom: 50px; font-size: 18px; color: var(--slate); }
+  .lime .pagenum { color: var(--ink); }
+  .cite { color: var(--slate); font-weight: 600; }
+  .dark .cite { color: #7f89a3; }
+
+  /* ---------- sound wave (capa / encerramento) ---------- */
+  .wave { display: flex; align-items: center; justify-content: center; gap: 15px; }
+  .wave i { display: block; width: 11px; border-radius: 6px; background: #2a3350; }
+  .wave i.on { background: var(--lime); }
+
+  /* ---------- 1. capa ---------- */
+  .cover { text-align: center; padding-top: 128px; }
+  .cover h1 { font-size: 104px; margin-top: 22px; letter-spacing: -.03em; }
+  .cover .sub { font-size: 28px; color: #aab3c5; margin-top: 18px; }
+  .cover .wave { margin-top: 52px; height: 150px; }
+  .cover .team { font-size: 24px; font-weight: 600; margin-top: 46px; }
+  .cover .course { font-size: 17px; color: var(--slate); margin-top: 10px; }
+
+  .lead { font-size: 27px; line-height: 1.4; max-width: 1150px; margin-top: 25px; color: var(--ink-2); }
+  .annotation { font-size: 24px; line-height: 1.4; margin-top: 35px; max-width: 1100px; }
+  .source { position: absolute; left: 94px; right: 190px; bottom: 51px; font-size: 17px; color: #52637d; }
+  .dark .source, .dark .pagenum, .cover .course { color: #a5aec0; }
+  .triplet { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 63px; }
+  .triplet div { background: #fff; padding: 31px 35px; border-radius: 16px; }
+  .triplet strong { display: block; color: var(--green); font-size: 80px; line-height: 1.1; }
+  .triplet span { display: block; font-size: 25px; margin-top: 9px; }
+  .steps { display: grid; gap: 24px; margin-top: 61px; }
+  .steps.four { grid-template-columns: repeat(4, 1fr); }
+  .steps.three { grid-template-columns: repeat(3, 1fr); }
+  .steps div { background: #161e32; padding: 29px 24px; border: 1px solid #2c374d; border-radius: 15px; position: relative; }
+  .steps div:not(:last-child)::after { content: '→'; position: absolute; right: -23px; top: 43%; color: var(--lime); font-size: 22px; }
+  .steps h2, .milestones h2 { font-size: 26px; line-height: 1.2; }
+  .steps p { font-size: 22px; line-height: 1.4; margin-top: 13px; color: #d5dfeb; }
+  .callout { margin-top: 45px; border-left: 4px solid var(--lime); padding: 6px 0 6px 22px; font-size: 24px; line-height: 1.4; max-width: 1110px; }
+  .callout b { color: var(--lime); }
+  .callout p { margin-top: 6px; }
+  .results { border-collapse: collapse; width: 100%; margin-top: 44px; text-align: center; font-size: 24px; background: #fff; font-variant-numeric: tabular-nums; }
+  .results th, .results td { padding: 22px 14px; border-bottom: 2px solid var(--paper); }
+  .results thead { color: #eef1f7; background: var(--navy); }
+  .results th:first-child { text-align: left; padding-left: 22px; }
+  .results td:nth-child(2), .results td:last-child { font-weight: 800; }
+  .example { margin-top: 36px; }
+  .example img { display: block; width: 100%; background: white; border-radius: 13px; }
+  .example figcaption { font-size: 24px; line-height: 1.42; margin-top: 25px; }
+  .milestones { display: grid; grid-template-columns: repeat(3, 1fr); gap: 24px; margin-top: 62px; }
+  .milestones div { background: #161e32; border: 1px solid #2c374d; border-radius: 13px; padding: 29px 26px; }
+  .milestones b { color: var(--lime); font-size: 42px; display: block; margin-bottom: 15px; }
+  .milestones p { font-size: 20px; line-height: 1.3; margin-top: 7px; color: #d5dfeb; }
+  .milestones .current { border-color: var(--lime); }
+  .references { list-style: none; margin-top: 41px; font-size: 24px; line-height: 1.4; max-width: 1150px; }
+  .references li { border-bottom: 1px solid #cbd5e1; padding: 16px 0; }
+  .references a { color: #176140; }
+</style>
+</head>
+<body>
+<section class="slide dark cover">
+  <div class="eyebrow">Equipe Ouvindo o Gol · Checkpoint 1</div>
+  <h1>Ouvindo o gol</h1>
+  <p class="sub">A voz do narrador como atalho para os melhores momentos de uma partida</p>
+  <div class="wave">
+    <i style="height:18px"></i><i style="height:28px"></i><i style="height:20px"></i><i style="height:30px"></i><i style="height:16px"></i><i style="height:24px"></i><i style="height:32px"></i><i style="height:22px"></i><i style="height:26px"></i><i style="height:18px"></i>
+    <i class="on" style="height:40px"></i><i class="on" style="height:62px"></i><i class="on" style="height:86px"></i><i class="on" style="height:112px"></i><i class="on" style="height:130px"></i><i class="on" style="height:144px"></i><i class="on" style="height:130px"></i><i class="on" style="height:112px"></i><i class="on" style="height:86px"></i><i class="on" style="height:62px"></i><i class="on" style="height:40px"></i>
+    <i style="height:26px"></i><i style="height:20px"></i><i style="height:30px"></i><i style="height:18px"></i><i style="height:28px"></i><i style="height:22px"></i><i style="height:32px"></i><i style="height:18px"></i><i style="height:26px"></i><i style="height:20px"></i>
+  </div>
+  <p class="team">Felipe Orlow, Pedro Augusto, Murilo Uchôa e Gustavo Barros</p>
+  <p class="course">INF0413 · Signal and Image Processing · 13/11/2026</p>
+  <div class="pagenum">1 / 8</div>
+</section>
+<section class="slide light">
+  <div class="eyebrow">Pergunta e dados</div>
+  <h1>O áudio da transmissão ajuda a localizar gols?</h1>
+  <p class="lead">Buscamos instantes em que a narração, a torcida ou outros sons da transmissão reagem a um lance.</p>
+  <div class="triplet">
+    <div><strong>12</strong><span>jogos disponíveis</span></div>
+    <div><strong>24</strong><span>tempos analisados</span></div>
+    <div><strong>55</strong><span>gols anotados</span></div>
+  </div>
+  <p class="annotation">Dois lotes de seis jogos. A divisão oficial de validação do SoccerNet tem 100 partidas anotadas.</p>
+  <p class="source">Xiong et al. (2003) · Vanderplaetse e Dupont (2020) · Deliège et al. (2021)</p>
+  <span class="pagenum">2 / 8</span>
+</section>
+
+<section class="slide dark">
+  <div class="eyebrow">Metodologia · Nível 0</div>
+  <h1>Da trilha da partida ao timestamp</h1>
+  <div class="steps four">
+    <div><h2>Preparar</h2><p>Áudio mono a 16 kHz e filtro de 300 a 3.400 Hz</p></div>
+    <div><h2>Medir</h2><p>Intensidade RMS pela STFT e frequência fundamental por pYIN</p></div>
+    <div><h2>Pontuar</h2><p>Volume normalizado com um bônus limitado quando o tom sobe</p></div>
+    <div><h2>Detectar</h2><p>Pico de um trecho de pelo menos 2 s acima do limiar</p></div>
+  </div>
+  <div class="callout"><b>Como avaliamos</b><p>Associamos cada pico a até um gol anotado, com tolerância de ±15 s. Medimos precisão, revocação e F1.</p></div>
+  <p class="source">O limiar é o percentil 98 da pontuação suavizada dentro de cada tempo de jogo.</p>
+  <span class="pagenum">3 / 8</span>
+</section>
+
+<section class="slide light">
+  <div class="eyebrow">Resultados preliminares</div>
+  <h1>O detector encontra gols e gera muitos alarmes falsos</h1>
+  <p class="lead">Regra de volume com bônus de tom. Todas as detecções. Tolerância de ±15 s.</p>
+  <table class="results">
+    <thead><tr><th scope="col">Lote</th><th scope="col">Gols encontrados</th><th scope="col">Detecções</th><th scope="col">Precisão</th><th scope="col">Revocação</th><th scope="col">F1</th></tr></thead>
+    <tbody>
+      <tr><th scope="row">Primeiro</th><td>22 de 36</td><td>115</td><td>19,1%</td><td>61,1%</td><td>0,291</td></tr>
+      <tr><th scope="row">Segundo</th><td>14 de 19</td><td>111</td><td>12,6%</td><td>73,7%</td><td>0,215</td></tr>
+    </tbody>
+  </table>
+  <p class="annotation">Ao usar os três picos mais fortes de cada tempo, a precisão sobe para 38,9% e 27,8%, e a revocação cai para 38,9% e 52,6%.</p>
+  <p class="source">Seis jogos por lote. Métricas calculadas sobre as contagens de cada lote.</p>
+  <span class="pagenum">4 / 8</span>
+</section>
+
+<section class="slide light">
+  <div class="eyebrow">Burnley × Arsenal · Primeiro tempo</div>
+  <h1>Dois picos da mesma partida</h1>
+  <figure class="example">
+    <img src="burnley-arsenal.png" alt="Dois gráficos de pontuação. O primeiro mostra uma detecção em 11:05 e um gol anotado em 11:03. O segundo mostra uma detecção em 5:14 e uma bola fora anotada em 5:15.">
+    <figcaption>O gol anotado em <b>11:03</b> fica a dois segundos da detecção. Perto de <b>5:15</b>, a anotação é de bola fora e o pico conta como falso positivo para gols.</figcaption>
+  </figure>
+  <p class="source">Burnley 0 × 1 Arsenal, 11/04/2015 · Áudio e anotações do SoccerNet</p>
+  <span class="pagenum">5 / 8</span>
+</section>
+
+<section class="slide dark">
+  <div class="eyebrow">Próximo experimento</div>
+  <h1>Um modelo pode reduzir os alarmes falsos?</h1>
+  <div class="steps three">
+    <div><h2>Janelas de áudio</h2><p>Trechos de 5 s, com rótulos obtidos dos timestamps do SoccerNet.</p></div>
+    <div><h2>Representações</h2><p>Comparar atributos acústicos com vetores da PANNs CNN14 de 16 kHz.</p></div>
+    <div><h2>Classificador</h2><p>Treinar com jogos separados e incluir casos difíceis, como finalizações e picos da torcida.</p></div>
+  </div>
+  <div class="callout"><b>Critério de comparação</b><p>Medir precisão, revocação e F1 nos mesmos jogos de validação, com a mesma tolerância do Nível 0.</p></div>
+  <p class="source">Kong et al. (2020) · PANNs foi pré-treinada no AudioSet.</p>
+  <span class="pagenum">6 / 8</span>
+</section>
+
+<section class="slide dark">
+  <div class="eyebrow">Cronograma</div>
+  <h1>Três checkpoints até a apresentação final</h1>
+  <div class="milestones">
+    <div class="current"><b>13/11</b><h2>Checkpoint 1</h2><p>Proposta revisada e Nível 0 em 12 jogos</p></div>
+    <div><b>27/11</b><h2>Checkpoint 2</h2><p>Resultados parciais do classificador acústico e andamento do PANNs</p></div>
+    <div><b>04/12</b><h2>Checkpoint 3 e apresentação final</h2><p>Comparação dos métodos e demonstração de clipes</p></div>
+  </div>
+  <span class="pagenum">7 / 8</span>
+</section>
+
+<section class="slide light">
+  <div class="eyebrow">Material de apoio</div>
+  <h1>Referências</h1>
+  <ul class="references">
+    <li><b>Xiong et al. (2003).</b> Audio events detection based highlights extraction from baseball, golf and soccer games in a unified framework. <a href="https://doi.org/10.1109/ICME.2003.1221333">IEEE ICME</a>.</li>
+    <li><b>Mauch e Dixon (2014).</b> pYIN: a fundamental frequency estimator using probabilistic threshold distributions. <a href="https://doi.org/10.1109/ICASSP.2014.6853678">IEEE ICASSP</a>.</li>
+    <li><b>Vanderplaetse e Dupont (2020).</b> Improved soccer action spotting using both audio and video streams. <a href="https://orbi.umons.ac.be/handle/20.500.12907/42318">CVPR Workshops</a>.</li>
+    <li><b>Kong et al. (2020).</b> PANNs: large-scale pretrained audio neural networks for audio pattern recognition. <a href="https://doi.org/10.1109/TASLP.2020.3030497">IEEE/ACM TASLP</a>.</li>
+    <li><b>Deliège et al. (2021).</b> SoccerNet-v2: a dataset and benchmarks for holistic understanding of broadcast soccer videos. <a href="https://doi.org/10.1109/CVPRW53098.2021.00508">CVPR Workshops</a>.</li>
+  </ul>
+  <span class="pagenum">8 / 8</span>
+</section>
+</body>
+</html>

@@ -67,7 +67,7 @@ def combine_score(z_vol, z_pitch):
     return z_vol + PITCH_BONUS_WEIGHT * np.clip(z_pitch, 0, PITCH_BONUS_CAP)
 
 
-def detect(score, threshold, min_dur_s):
+def detect(score, threshold, min_dur_s, *, hop_s=HOP_S, first_s=0.0):
     """Return (start_s, peak_s, end_s, peak_score, strength) for runs above threshold lasting >= min_dur_s.
 
     Sorted by strength, the area of the score above the threshold (score-seconds):
@@ -78,10 +78,10 @@ def detect(score, threshold, min_dur_s):
     starts, ends = np.where(edges == 1)[0], np.where(edges == -1)[0]
     out = []
     for s, e in zip(starts, ends):
-        if (e - s) * HOP_S >= min_dur_s:
+        if (e - s) * hop_s >= min_dur_s:
             p = s + int(np.argmax(score[s:e]))
-            strength = float(np.sum(score[s:e] - threshold) * HOP_S)
-            out.append((s * HOP_S, p * HOP_S, e * HOP_S, float(score[p]), strength))
+            strength = float(np.sum(score[s:e] - threshold) * hop_s)
+            out.append((first_s + s * hop_s, first_s + p * hop_s, first_s + e * hop_s, float(score[p]), strength))
     return sorted(out, key=lambda d: -d[4])
 
 
@@ -103,14 +103,23 @@ def load_events(game, half):
     raise SystemExit(f"game not found in annotations: {game}")
 
 
-def evaluate(detections, truth_s, tol_s):
-    """Slide 8: a detection is a hit if it falls within +-T of an unmatched ground-truth event."""
-    used, tp = set(), 0
-    for _, peak, *_ in detections:
+def match_detections(detections, truth_s, tol_s):
+    """Match prioritized detections to the nearest available event within tolerance."""
+    used = set()
+    matches = {}
+    for det_index, (_, peak, *_) in enumerate(detections):
         hits = [i for i, t in enumerate(truth_s) if i not in used and abs(peak - t) <= tol_s]
         if hits:
-            used.add(min(hits, key=lambda i: abs(peak - truth_s[i])))
-            tp += 1
+            event_index = min(hits, key=lambda i: abs(peak - truth_s[i]))
+            used.add(event_index)
+            matches[det_index] = event_index
+    return matches
+
+
+def evaluate(detections, truth_s, tol_s):
+    """Slide 8: a detection is a hit if it falls within +-T of an unmatched ground-truth event."""
+    used = set(match_detections(detections, truth_s, tol_s).values())
+    tp = len(used)
     p = tp / len(detections) if detections else 0.0
     r = len(used) / len(truth_s) if truth_s else 0.0
     f1 = 2 * p * r / (p + r) if p + r else 0.0

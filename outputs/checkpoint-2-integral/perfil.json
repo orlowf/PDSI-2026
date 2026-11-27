@@ -1,0 +1,9 @@
+{
+  "device": "mps",
+  "precision": "torch.float16",
+  "torch": "2.12.1",
+  "model": "audeering/wav2vec2-large-robust-12-ft-emotion-msp-dim",
+  "model_revision": "6eba34a2485ea31cb03600241787c3a5edab8626",
+  "window_s": 4,
+  "hop_s": 2
+}
