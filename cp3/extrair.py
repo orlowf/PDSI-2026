@@ -7,6 +7,7 @@ import shutil
 import sys
 import tempfile
 import time
+from functools import partial
 from pathlib import Path
 
 import librosa
@@ -154,6 +155,9 @@ def _registrar(registro, **linha):
 
 def executar(jogos, raiz_atributos, raiz_midia, revisao, faixas, registro,
              adquirir=None, reaproveitar=None, uso_disco=shutil.disk_usage):
+    """Processa a fila. Não rode duas extrações ao mesmo tempo: a limpeza abaixo apagaria os downloads da outra."""
+    # Sobras de uma execução morta à força (SIGKILL, falta de energia), que o `finally` não chegou a apagar.
+    shutil.rmtree(Path(raiz_midia) / "transferencias", ignore_errors=True)
     for jogo in jogos:
         Path(raiz_atributos).mkdir(parents=True, exist_ok=True)
         livre = uso_disco(raiz_atributos).free
@@ -189,6 +193,8 @@ def main(argv=None):
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--faixas", type=int, default=8, help="conexões HTTP paralelas por mídia")
     parser.add_argument("--limite", type=int, help="processa só os N primeiros jogos")
+    parser.add_argument("--recuperar", action="store_true",
+                        help="modo de recuperação do CP2 para jogos cuja sincronia HQ falhou (rode depois da 1ª passada)")
     args = parser.parse_args(argv)
     jogos = _jogos_da_divisao()[:args.limite]
     if REVISAO_CP2.is_file():
@@ -197,7 +203,8 @@ def main(argv=None):
         from adquirir_midias_checkpoint2_integral import resolve_revision
 
         revisao = resolve_revision()
-    executar(jogos, RAIZ_ATRIBUTOS, RAIZ_MIDIA, revisao, args.faixas, REGISTRO)
+    adquirir = partial(_adquirir_padrao, recovery=True) if args.recuperar else None
+    executar(jogos, RAIZ_ATRIBUTOS, RAIZ_MIDIA, revisao, args.faixas, REGISTRO, adquirir=adquirir)
 
 
 if __name__ == "__main__":

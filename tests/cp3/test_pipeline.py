@@ -115,3 +115,32 @@ def test_falha_de_um_jogo_segue_para_o_proximo(tmp_path):
              adquirir=adquirir, reaproveitar=sem_cache)
     estados = {l["jogo"]: l["estado"] for l in csv.DictReader(registro.open())}
     assert estados == {JOGO.path: "falha", outro.path: "pronto"}
+
+
+def test_executar_limpa_transferencias_de_execucao_morta(tmp_path):
+    sobra = tmp_path / "midia" / "transferencias" / "soccer-abc" / "HQ" / "media.mkv"
+    sobra.parent.mkdir(parents=True)
+    sobra.write_bytes(b"parcial")
+    escrever_wav(tmp_path / "midia" / "transferencias" / "soccer-abc" / "224p" / "audio.wav")
+    executar([JOGO], tmp_path / "atr", tmp_path / "midia", "rev", 1, tmp_path / "extracao.csv",
+             adquirir=AdquirirFalso(), reaproveitar=sem_cache)
+    assert not (tmp_path / "midia" / "transferencias").exists()
+    assert wavs_em(tmp_path / "midia") == []
+
+
+def test_main_recuperar_passa_recovery_para_acquire_game(tmp_path, monkeypatch):
+    import cp3.extrair as extrair
+
+    recebidos = []
+    monkeypatch.setattr(extrair, "_jogos_da_divisao", lambda: [JOGO])
+    monkeypatch.setattr(extrair, "REVISAO_CP2", tmp_path / "revisao.txt")
+    (tmp_path / "revisao.txt").write_text("a" * 40)
+
+    def executar_falso(jogos, *args, adquirir=None, **kwargs):
+        recebidos.append(adquirir)
+
+    monkeypatch.setattr(extrair, "executar", executar_falso)
+    extrair.main(["--recuperar"])
+    extrair.main([])
+    assert recebidos[0].keywords == {"recovery": True}
+    assert recebidos[1] is None

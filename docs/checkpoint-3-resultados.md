@@ -13,7 +13,8 @@ Design e plano: `docs/superpowers/specs/2026-11-25-checkpoint-3-modelo-design.md
 
 - A divisão está em `outputs/checkpoint-3/divisao.json`. A semente é 2026; as dobras são feitas por jogo e estratificadas por competição.
 - A extração está registrada em `outputs/checkpoint-3/extracao.csv`. Cada tempo virou um log-mel (16 kHz, 64 bandas, 50 quadros/s) mais 8 atributos por quadro. O áudio baixado foi apagado logo depois da extração.
-- 14 jogos falharam na conferência de sincronia da versão HQ (12 de treino e 2 de teste). Todos foram recuperados no modo de recuperação do CP2 (`acquire_game(..., recovery=True)`), então nenhum jogo ficou de fora.
+- 14 jogos falharam na primeira passada: 12 na conferência de sincronia da versão HQ e 2 por queda de conexão (10 de treino e 2 de teste com falha de HQ, mais os 2 de conexão no treino). Todos foram recuperados no modo de recuperação do CP2 (`acquire_game(..., recovery=True)`, hoje `python -m cp3.extrair --recuperar`), então nenhum jogo ficou de fora.
+- Não rode duas extrações ao mesmo tempo: cada execução começa apagando `.cache/checkpoint-3/midia/transferencias`, que guarda os downloads em andamento.
 - Mídia, WAVs, atributos e pesos ficam em `.cache/`, fora do git, por causa do NDA do SoccerNet.
 
 ## Modelos
@@ -32,14 +33,14 @@ O plano previa LightGBM, mas a libomp do LightGBM e a do PyTorch derrubam o proc
 
 Ponto de operação escolhido pelo F1 (`outputs/checkpoint-3/teste/comparacao.png`):
 
-| Método | Alertas | Acertos | Precisão | Recall | F1 |
-|---|---:|---:|---:|---:|---:|
-| **Gradient boosting** | 2 020 | 1 140 | **56,4%** | 46,0% | **0,507** |
-| TCN 1D | 2 932 | 1 200 | 40,9% | 48,4% | 0,444 |
-| CNN 2D | 3 023 | 1 018 | 33,7% | 41,1% | 0,370 |
-| Regra (CP1) | 2 849 | 834 | 29,3% | 33,6% | 0,313 |
-| Wav2vec (CP2) | 3 395 | 1 103 | 32,5% | 44,5% | 0,376 |
-| Fusão (CP2) | 5 337 | 1 424 | 26,7% | 57,4% | 0,364 |
+| Método | Alertas | Alertas por tempo | Acertos | Precisão | Recall | F1 |
+|---|---:|---:|---:|---:|---:|---:|
+| **Gradient boosting** | 2 020 | 10,1 | 1 140 | **56,4%** | 46,0% | **0,507** |
+| TCN 1D | 2 932 | 14,7 | 1 200 | 40,9% | 48,4% | 0,444 |
+| CNN 2D | 3 023 | 15,1 | 1 018 | 33,7% | 41,1% | 0,370 |
+| Regra (CP1) | 2 849 | 14,2 | 834 | 29,3% | 33,6% | 0,313 |
+| Wav2vec (CP2) | 3 395 | 17,0 | 1 103 | 32,5% | 44,5% | 0,376 |
+| Fusão (CP2) | 5 337 | 26,7 | 1 424 | 26,7% | 57,4% | 0,364 |
 
 Com o mesmo número de alertas que a fusão do CP2 (`comparacao_mesmo_k.png`):
 
@@ -67,21 +68,21 @@ Os demais arquivos do teste ficam em `outputs/checkpoint-3/teste/`: `metricas.cs
 - **O gradient boosting é o melhor modelo.** No ponto de melhor F1, tem precisão de 56% contra 27% da fusão. Com o mesmo número de alertas, acha 268 lances a mais que a fusão (68% contra 57%).
 - **O ganho vem das finalizações.** Gol todos já acertam (~93%). As finalizações para fora sobem de 47% para 69%.
 - **Os pênaltis continuam difíceis.** Muitos vêm colados no gol, e o pareamento um a um só deixa um alerta pagar um lance.
-- **A CNN 2D ficou melhor no teste (F1 0,370) do que na validação cruzada (0,288).** No teste, ela usa a média de 5 modelos, o que reduz o ruído da curva.
+- **A CNN 2D rodou no teste num ponto de operação diferente do escolhido na validação cruzada.** O percentil escolhido na validação cruzada gerava 28,6 alertas por tempo. No teste, a média dos 5 modelos deixa a curva mais lisa, com menos máximos locais, e o mesmo percentil gerou só 15,1 alertas por tempo. Por isso o F1 do teste (0,370) não é comparável diretamente com o da validação cruzada (0,288). No gradient boosting (10,4 → 10,1) e na TCN (14,1 → 14,7) a densidade de alertas se manteve. Não há vazamento: o percentil foi fixado antes do teste.
 
 ## Validação cruzada (393 jogos de treino, fora da dobra)
 
 `outputs/checkpoint-3/cv_resumo.csv`
 
-| Modelo | Ponto | Alertas | Precisão | Recall | F1 |
-|---|---|---:|---:|---:|---:|
-| Gradient boosting | melhor F1 | 8 199 | 57,0% | 45,6% | 0,507 |
-| Gradient boosting | mesmo nº de alertas | 20 831 | 32,9% | 67,0% | 0,442 |
-| TCN 1D | melhor F1 | 11 112 | 38,6% | 41,9% | 0,402 |
-| TCN 1D | mesmo nº de alertas | 20 831 | 28,4% | 57,8% | 0,381 |
-| CNN 2D | melhor F1 | 22 468 | 20,9% | 45,9% | 0,288 |
-| CNN 2D | mesmo nº de alertas | 20 831 | 22,3% | 45,4% | 0,299 |
-| Fusão (CP2) | referência | 20 831 | 26,5% | 53,9% | 0,355 |
+| Modelo | Ponto | Alertas | Alertas por tempo | Precisão | Recall | F1 |
+|---|---|---:|---:|---:|---:|---:|
+| Gradient boosting | melhor F1 | 8 199 | 10,4 | 57,0% | 45,6% | 0,507 |
+| Gradient boosting | mesmo nº de alertas | 20 831 | 26,5 | 32,9% | 67,0% | 0,442 |
+| TCN 1D | melhor F1 | 11 112 | 14,1 | 38,6% | 41,9% | 0,402 |
+| TCN 1D | mesmo nº de alertas | 20 831 | 26,5 | 28,4% | 57,8% | 0,381 |
+| CNN 2D | melhor F1 | 22 468 | 28,6 | 20,9% | 45,9% | 0,288 |
+| CNN 2D | mesmo nº de alertas | 20 831 | 26,5 | 22,3% | 45,4% | 0,299 |
+| Fusão (CP2) | referência | 20 831 | 26,5 | 26,5% | 53,9% | 0,355 |
 
 ### Atributos mais importantes do gradient boosting
 
@@ -96,13 +97,13 @@ O modelo se apoia na reação de torcida e narrador em torno do lance, e não no
 
 ## Recall em função do número de alertas
 
-Se a ideia é que uma pessoa revise todos os alertas e escolha os cortes, a métrica que importa é o recall para um número fixo de alertas. Os números abaixo são do gradient boosting (σ=2, distância mínima de 10 s), nos jogos de treino, fora da dobra. **Não foram medidos no teste.**
+Se a ideia é que uma pessoa revise todos os alertas e escolha os cortes, a métrica que importa é o recall para um número fixo de alertas. Os números abaixo são do gradient boosting (σ=2, os k maiores picos com distância mínima de 10 s), nos jogos de treino, fora da dobra. **Não foram medidos no teste.** Eles vêm de `python -m cp3.recall_orcamento`, que grava `outputs/checkpoint-3/recall_orcamento.csv` com os 3 modelos, o sorteio aleatório e o recall por classe.
 
 | Alertas por tempo (~45 min) | 15 | 27 | 45 (1 por min) | 90 |
 |---|---:|---:|---:|---:|
 | Recall, pareamento um a um (métrica do CP2) | 54% | 68% | 79% | 91% |
 | Recall por cobertura (há um alerta a até 15 s) | 68% | 80% | 89% | 98% |
-| Recall de alertas sorteados ao acaso | — | 23% | 34% | 57% |
+| Recall de alertas sorteados ao acaso (um a um) | 13% | 23% | 38% | 67% |
 
 O recall por cobertura é o mais próximo de uma aplicação com cortes de 30 s: um alerta que cobre dois lances próximos (pênalti seguido de gol, rebote) mostra os dois. Do total de lances, 17% ficam a menos de 10 s do lance anterior.
 
@@ -114,8 +115,6 @@ Recall um a um por classe nos mesmos dados:
 | 45 | 95% | 74% | 80% | 60% | 83% |
 | 90 | 97% | 87% | 95% | 81% | 98% |
 
-Combinar o gradient boosting com a TCN (média das posições) não melhorou o recall.
-
 **Atenção:** o teste já foi avaliado uma vez. Um novo ponto de operação, por exemplo um orçamento de alertas, tem de ser escolhido só nos dados de treino fora da dobra. Ao reportá-lo no teste, deixe claro que foi definido depois da primeira avaliação.
 
 ## Como reproduzir
@@ -125,14 +124,16 @@ Requisitos: o ambiente do CP2 mais `pip install -e '.[cp3]'`, e o token do Huggi
 ```bash
 python -m cp3.divisao                       # gera divisao.json (recusa sobrescrever)
 python -m cp3.extrair --faixas 8            # baixa, extrai atributos e apaga o áudio (~1 dia)
+python -m cp3.extrair --recuperar           # refaz no modo de recuperação os jogos com falha de sincronia HQ
 python -m cp3.classico                      # validação cruzada do gradient boosting (~3 h)
 python -m cp3.treino_rede --modelo tcn      # validação cruzada da TCN (~15 min no MPS)
 python -m cp3.treino_rede --modelo cnn2d    # validação cruzada da CNN 2D (~3,5 h no MPS)
 python -m cp3.relatorio_cv                  # cv_resumo.csv
+python -m cp3.recall_orcamento              # recall por número de alertas (treino, fora da dobra)
 python -m cp3.teste                         # avaliação única no teste + figuras
 python -m cp3.graficos                      # refaz só as figuras a partir dos CSVs
 python -m cp3.cortes --video <tempo.mkv> --jogo "<jogo>" --tempo 1   # cortes de 30 s por alerta
-pytest                                      # 69 testes
+pytest                                      # 75 testes
 ```
 
 O `cp3.teste` se recusa a rodar se alguma configuração mudar depois da primeira avaliação (trava por hash em `outputs/checkpoint-3/teste/trava.json`).
