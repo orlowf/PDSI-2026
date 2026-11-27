@@ -122,7 +122,7 @@ def main(argv=None):
               f"P={linha['precisao']:.3f} R={linha['revocacao']:.3f} F1={linha['f1']:.3f}")
     from cp3.graficos import figuras_teste
 
-    figuras_teste(destino, metricas, por_classe, tempos, curvas, bases)
+    figuras_teste(destino, metricas, por_classe, tempos, curvas, alertas)
 
 
 if __name__ == "__main__":
